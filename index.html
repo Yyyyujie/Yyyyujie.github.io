@@ -247,11 +247,11 @@
 
         })
         $(".next").click(function () {
-           /* if($(this).index()==7){
-                 $.fn.fullpage().moveTo(2)
-            }else*/
-                $.fn.fullpage().moveSectionDown();
-
+            if($(this).index()==7){
+                $.fn.fullpage.moveTo(2);
+            }else {
+                $.fn.fullpage.moveSectionDown();
+            }
         })
     })
 
