@@ -21,7 +21,7 @@
     </div>
     <div class="banner section">
         <div class="container">
-            <div class="top-nav row">
+            <div class="top-nav row" style="width: 1140px">
                 <span>Yu Shifang</span>
                 <ul class="menu">
                     <li><a href="#page2">个人介绍</a></li>
@@ -226,14 +226,17 @@
             'navigation': true,
             'navigationPosition': 'right',
             'navigationTooltips': ['fullPage.js', 'Powerful', 'Amazing', 'Simple'],
-             fixedElements:".next",
+             fixedElements:".top-nav,.next",
 
 //         navigation:右侧导航轮播点
 //        navigationTooltips：导航的提示信息；
           afterLoad:function (an,index) { //an是锚点  index是section的索引值    进入
                   if(index==1){
             $(".w").animate({top:200});
+                      $(".top-nav").hide();
 
+                  }else{
+                      $(".top-nav").slideDown();
                   }
 
     },
@@ -244,7 +247,6 @@
                 }
             }
 
-
         })
         $(".next").click(function () {
             if($(this).index()==7){
@@ -254,10 +256,6 @@
             }
         })
     })
-
-
-
-
 
 
 </script>

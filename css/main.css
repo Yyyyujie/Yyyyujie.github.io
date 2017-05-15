@@ -50,18 +50,20 @@
 	width: 1140px;
 	height: 100%;
 	margin: 0 auto;
-	padding-top: 20px;
+	padding-top: 50px;
 }
 .top-nav{
-	width: 100%;
+	width: 1140px;
 	height: 55px;
 	background: rgba(0, 0, 0, .6);
-	margin: 0 auto;
+	/*margin: 0 auto;*/
 	/*margin-top: 50px;*/
 	padding: 0 20px;
-	/*position: fixed;
+	position: fixed;
 	top:0;
-	left:0;*/
+	left:0;
+	right:0;
+	margin:auto;
 }
 .top-nav span{
 	font-size: 30px;
@@ -117,7 +119,7 @@
 	overflow: hidden;
 	background: rgba(0, 0, 0, .6);
 	margin: 0 auto;
-	margin-top: 20px;
+	/*margin-top: 20px;*/
 	padding : 40px;
 }
 .jianjie-right{
@@ -654,8 +656,11 @@
 .next{
 	width:50px;
 	height:50px;
-	background: red;
 	position: fixed;
 	left:50%;margin-left: -15px;
-	bottom:50px;
+	bottom:20px;
+	background-image: url("../img/鼠标.png");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
 }
