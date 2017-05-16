@@ -659,7 +659,7 @@
 	position: fixed;
 	left:50%;margin-left: -15px;
 	bottom:20px;
-	background-image: url("../img/shubiao.png");
+	background-image: url('../img/shubiao.png');
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
