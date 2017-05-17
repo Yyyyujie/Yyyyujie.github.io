@@ -282,12 +282,9 @@
 //        navigationTooltips：导航的提示信息；
           afterLoad:function (an,index) { //an是锚点  index是section的索引值    进入
                   if(index==1){
+                      $(".top-nav").fadeOut();
             $(".w").animate({top:200});
-                      $(".top-nav").hide();
 
-                  }else{
-                      $(".top-nav").slideDown();
-                  }
               if(index==3){
                 $(".kuang2").addClass("html5");
                   $(".kuang3").addClass("css3");
@@ -305,7 +302,7 @@
             onLeave:function (index) {  // 离开时的动画
                 if(index==1){
                     $(".w").animate({top:-300});
-
+                    $(".top-nav").slideDown();
                 }
             }
 
