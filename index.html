@@ -280,25 +280,27 @@
 
 //         navigation:右侧导航轮播点
 //        navigationTooltips：导航的提示信息；
-          afterLoad:function (an,index) { //an是锚点  index是section的索引值    进入
-                  if(index==1){
-                      $(".top-nav").fadeOut();
-            $(".w").animate({top:200});
+            afterLoad:function (an,index) { //an是锚点  index是section的索引值    进入
+                if(index==1){
+                    $(".top-nav").fadeOut();
+                    $(".w").animate({top:200});
 
-              if(index==3){
-                $(".kuang2").addClass("html5");
-                  $(".kuang3").addClass("css3");
-                  $(".kuang4").addClass("jquery");
-                  $(".kuang5").addClass("photoshop");
-                  $(".kuang6").addClass("dreamweaver");
-                  $(".jn").slideDown();
-              }
-             if(index==2){
-                 $(".jianjie-right").fadeIn(1000);
-                 $(".jianjie-left").css("width","50%")
-             }
 
-    },
+                }
+                if(index==3){
+                    $(".kuang2").addClass("html5");
+                    $(".kuang3").addClass("css3");
+                    $(".kuang4").addClass("jquery");
+                    $(".kuang5").addClass("photoshop");
+                    $(".kuang6").addClass("dreamweaver");
+                    $(".jn").slideDown();
+                }
+                if(index==2){
+                    $(".jianjie-right").fadeIn(1000);
+                    $(".jianjie-left").css("width","50%")
+                }
+
+            },
             onLeave:function (index) {  // 离开时的动画
                 if(index==1){
                     $(".w").animate({top:-300});
@@ -315,7 +317,6 @@
             }
         })
     })
-
 
 </script>
 </html>
