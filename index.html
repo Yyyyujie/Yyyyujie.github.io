@@ -24,17 +24,67 @@
             <div class="top-nav row" style="width: 1140px">
                 <span>Yu Shifang</span>
                 <ul class="menu">
-                    <li><a href="#page2">个人介绍</a></li>
-                    <li><a href="#page3">个人能力</a></li>
-                    <li><a href="#page4">个人作品</a></li>
-                    <li><a href="#page5">个人作品1</a></li>
-                    <li><a href="#page6">个人作品2</a></li>
-                    <li><a href="#page7">联系方式</a></li>
+                    <div class="svg-wrapper">
+                        <svg height="40" width="70">
+                            <rect id="shape" height="40" width="70" />
+                            <div id="text">
+                                <a href="#page2"><span class="spot"></span>个人介绍</a>
+                            </div>
+                        </svg>
+                    </div>
+                    <div class="svg-wrapper">
+                        <svg height="40" width="70" >
+                            <rect id="shape" height="40" width="70" />
+                            <div id="text">
+                                <a href="#page3"><span class="spot"></span>个人能力</a>
+                            </div>
+                        </svg>
+                    </div>
+                    <div class="svg-wrapper">
+                        <svg height="40" width="70" >
+                            <rect id="shape" height="40" width="70" />
+                            <div id="text">
+                                <a href="#page4"><span class="spot"></span>个人作品</a>
+                            </div>
+                        </svg>
+                    </div>
+                    <div class="svg-wrapper">
+                        <svg height="40" width="70" >
+                            <rect id="shape" height="40" width="70" />
+                            <div id="text">
+                                <a href="#page5"><span class="spot"></span>作品1</a>
+                            </div>
+                        </svg>
+                    </div>
+                    <div class="svg-wrapper">
+                        <svg height="40" width="70" >
+                            <rect id="shape" height="40" width="70" />
+                            <div id="text">
+                                <a href="#page6"><span class="spot"></span>作品2</a>
+                            </div>
+                        </svg>
+                    </div>
+                    <div class="svg-wrapper">
+                        <svg height="40" width="70" >
+                            <rect id="shape" height="40" width="70" />
+                            <div id="text">
+                                <a href="#page7"><span class="spot"></span>联系方式</a>
+                            </div>
+                        </svg>
+                    </div>
+
+                     <!--<li><a href="#page2">
+                         个人介绍</a></li>
+                     <li><a href="#page3">个人能力</a></li>
+                     <li><a href="#page4">个人作品</a></li>
+                     <li><a href="#page5">个人作品1</a></li>
+                     <li><a href="#page6">个人作品2</a></li>
+                     <li><a href="#page7">联系方式</a></li>-->
                 </ul>
                 <div class="liebiao"></div>
             </div>
             <div class="jianjie">
-                <div class="jianjie-left col-lg-6 col-md-6 col-xs-12 col-sm-6 "></div>
+                <div class="jianjie-left  "></div>
                 <div class="jianjie-right col-lg-6 col-md-6 col-xs-12 col-sm-6 ">
                     <ul>
                         <li>个人介绍</li>
@@ -78,7 +128,7 @@
                     </div>
                     <div class="jnbox">
                         <div class="kuang1">
-                            <div class="kuang2"></div>
+                            <div class="kuang6"></div>
                         </div>
                         <div class="jnzi">PS</div>
 
@@ -91,7 +141,7 @@
 
                     </div>
                 </li>
-                <li class="col-lg-6 col-md-6 col-xs-12 col-sm-8">
+                <li class="col-lg-6 col-md-6 col-xs-12 col-sm-8 jn" >
                     精通HTML、CSS、JS、PHP等，熟练使用PS、AI、DW等以及办公软件<br>
                     奥斯卡鲁大师；艾玛；啊爱课程；埃里克重复；<br>轮廓摩擦声；词；‘卡市场；离开城市；词卡市场京东快递吃撒举个手价格<br>
                     色调成都加快农村vdoijedlkncvlkcvs快来参加面试了库存面积<br>
@@ -105,7 +155,7 @@
         <div class="container">
             <div class="title">个人作品</div>
             <ul class="col-lg-12 col-md-12 col-xs-6 col-sm-6">
-                <li><a href="凡客/fanke.html">凡客官网</a></li>
+                <li><a href="../凡客/fanke.html">凡客官网</a></li>
                 <li><a href="../小米/xiaomi.html">小米官网</a></li>
                 <li><a href="../天猫/index.html">天猫官网</a></li>
 
@@ -225,7 +275,7 @@
             anchors: ['page1', 'page2', 'page3', 'page4','page5', 'page6','page7'],
             'navigation': true,
             'navigationPosition': 'right',
-            'navigationTooltips': ['Welcom', '个人介绍', '个人技能', '个人作品','个人作品1','个人作品2','联系方式'],
+            'navigationTooltips': ['Welcom','个人介绍','个人技能','个人作品','作品1','作品2','联系方式'],
              fixedElements:".top-nav,.next",
 
 //         navigation:右侧导航轮播点
@@ -238,6 +288,18 @@
                   }else{
                       $(".top-nav").slideDown();
                   }
+              if(index==3){
+                $(".kuang2").addClass("html5");
+                  $(".kuang3").addClass("css3");
+                  $(".kuang4").addClass("jquery");
+                  $(".kuang5").addClass("photoshop");
+                  $(".kuang6").addClass("dreamweaver");
+                  $(".jn").slideDown();
+              }
+             if(index==2){
+                 $(".jianjie-right").fadeIn(1000);
+                 $(".jianjie-left").css("width","50%")
+             }
 
     },
             onLeave:function (index) {  // 离开时的动画

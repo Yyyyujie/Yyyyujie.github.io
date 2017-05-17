@@ -113,6 +113,17 @@
 .top-nav a:hover{
 	color: #2798FF;
 }
+#personal{color:white;text-decoration:none;position:absolute;bottom:15px;right:2%}
+.spot{position:absolute;width:100%;height:100%;top:0;left:0}
+.svg-wrapper{margin-top:7px;position:relative;width:70px;height:40px;display:inline-block;border-radius:3px;margin-left:5px;margin-right:0}
+#shape{stroke-width:3px;fill:transparent;stroke:#009FFD;stroke-dasharray:70 400;stroke-dashoffset:-110;transition:1s all ease}
+#text{margin-top:-35px;text-align:center}
+#text a{color:white;text-decoration:none;font-weight:100;font-size:16px}
+.svg-wrapper:hover #shape{stroke-dasharray:50 0;stroke-width:3px;stroke-dashoffset:0;stroke:#06D6A0}
+
+
+
+
 .jianjie{
 	width: 100%;
 	/* height: 494px; */
@@ -127,6 +138,7 @@
 	/* height: 494px; */
 	/* background: yellowgreen; */
 	float: right;
+	display: none;
 }
 .jianjie-right ul{
 	width: 100%;
@@ -161,7 +173,7 @@
    margin: 0 auto;
 }
 .jianjie-left{
-	width: 50%;
+	width: 0;
 	height: 494px;
 	/* background: pink; */
 	background-image: url('../img/geren.jpg');
@@ -169,6 +181,7 @@
 	background-size: 100%;
 	background-position:top;
 	float: left;
+	transition: all .5s;
 }
 .jieshao{
 	width: 100%;
@@ -247,6 +260,7 @@
 }
 .skill  li:nth-child(2){
      padding: 100px 50px 100px 50px;
+	display: none;
 }
 .jnbox{
 	width: 100%;
@@ -286,34 +300,55 @@
 	line-height: 60px;
 }
 .kuang2{
-	width: 80%;
+	/*width: 80%;*/
 	height: 100%;
 	background:#2798FF;
 	float: left;
 	border-radius:10px;
+	/*transition: all 1s;
+	animation: xianshi 1s forwards;*/
 }
+.html5       { width:85%;  -moz-animation:html5 1s ease-out;       -webkit-animation:html5 1s ease-out;       }
+.css3        { width:75%;  -moz-animation:css3 1s ease-out;        -webkit-animation:css3 1s ease-out;        }
+.jquery      { width:80%;  -moz-animation:jquery 1s ease-out;      -webkit-animation:jquery 1s ease-out;      }
+.photoshop   { width:70%;  -moz-animation:photoshop 1s ease-out;   -webkit-animation:photoshop 1s ease-out;   }
+.dreamweaver { width:80%; -moz-animation:dreamweaver 1s ease-out; -webkit-animation:dreamweaver 1s ease-out; }
+
+
+@keyframes html5       { 0%  { width:0px;} 100%{ width:85%;}  }
+@keyframes css3        { 0%  { width:0px;} 100%{ width:75%;}  }
+@keyframes jquery      { 0%  { width:0px;} 100%{ width:80%;}  }
+@keyframes photoshop   { 0%  { width:0px;} 100%{ width:70%;}  }
+@keyframes dreamweaver { 0%  { width:0px;} 100%{ width:80%;} }
+
 .kuang3{
-	width: 70%;
+	/*width: 70%;*/
 	height: 100%;
 	background:#2798FF;
 	float: left;
 	border-radius:10px;
 }
 .kuang4{
-	width: 85%;
+	/*width: 85%;*/
 	height: 100%;
 	background:#2798FF;
 	float: left;
 	border-radius:10px;
 }
 .kuang5{
-	width: 60%;
+	/*width: 60%;*/
 	height: 100%;
 	background:#2798FF;
 	float: left;
 	border-radius:10px;
 }
-
+.kuang6{
+	/*width: 60%;*/
+	height: 100%;
+	background:#2798FF;
+	float: left;
+	border-radius:10px;
+}
 .zuopin1{
 	width: 100%;
 	height:100%;
@@ -375,6 +410,10 @@
 .zuopin1 ul li:hover{
 	background: rgba(255, 255, 255, .6);
 }
+
+
+
+
 .ps{
 	width: 100%;
 	overflow: hidden;
@@ -659,7 +698,7 @@
 	position: fixed;
 	left:50%;margin-left: -15px;
 	bottom:20px;
-	background-image: url('../img/shubiao.png');
+	background-image: url("../img/鼠标.png");
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
