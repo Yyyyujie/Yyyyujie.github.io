@@ -1,0 +1,370 @@
+.header-top{
+	width: 100%;
+	height: 40px;
+	background: #444444;
+}
+.header-top main{
+	/* max-width: 976px;
+	height: 100%; */
+	margin: 0 auto;
+}
+.header-top main div{
+	line-height: 40px;
+	float: right;
+	font-size: 12px;
+	color: #a8a8a8;
+}
+@media screen and (min-width:1024px) 
+	{
+	.header-top main{
+	max-width: 976px;
+	height: 100%;
+}
+header nav main{
+	max-width: 976px;
+	height: 100%;
+}
+header nav  .max-nav{
+     display: block;
+}
+header nav .min-nav{
+	display: none;
+} 
+.banner-box a{
+	background-image: url('../image/macbookpro_large.jpg');
+}
+.tu1{
+	width: 25%;
+background-image: url('../img/tu1.jpg');
+}
+.tu2{
+width: 25%;
+background-image: url('../img/tu2.jpg');
+}
+.tu3{
+width: 25%;
+background-image: url('../img/tu3.jpg');
+}
+.tu4{
+width: 25%;
+background-image: url('../img/tu4.jpg');
+}
+.footer main{
+	width:980px;
+	height: 100%;
+	margin: 0 auto;
+}
+.footer-bottom1{
+	display: none;
+}
+
+}
+	@media screen and (max-width:1024px) 
+	{
+	.header-top main{
+		padding: 0 24px;
+}
+   header nav main{
+   padding: 0 22px;
+}
+header nav  .max-nav{
+     display: block;
+}
+header nav .min-nav{
+	display: none;
+}
+.banner-box a{
+	background-image: url('../image/macbookpro_medium.jpg');
+}
+.tu1{
+	width: 50%;
+background-image: url('../img/tu11.jpg');
+}
+.tu2{
+width: 50%;
+background-image: url('../img/tu22.jpg');
+}
+.tu3{
+width: 50%;
+background-image: url('../img/tu33.jpg');
+}
+.tu4{
+width: 50%;
+background-image: url('../img/tu44.jpg');
+}
+.footer{
+	padding: 0 25px 0;
+}
+.footer-botom .ul1{
+	display: block;
+}
+.footer-bottom1{
+	display: none;
+}
+}
+
+@media screen and (max-width:768px) 
+	{
+	 header nav  .max-nav{
+     display: none;
+}
+header nav .min-nav{
+	display: block;
+}
+.banner-box a{
+	background-image: url('../image/macbookpro_small.jpg');
+}
+.tu1{
+  width: 100%;
+background-image: url('../img/tu111.jpg');
+}
+.tu2{
+  width: 100%;
+background-image: url('../img/tu222.jpg');
+}
+.tu3{
+  width: 100%;
+background-image: url('../img/tu333.jpg');
+}
+.tu4{
+  width: 100%;
+background-image: url('../img/tu444.jpg');
+}
+.footer-bottom .ul1{
+	display: none;
+}
+.footer-bottom1{
+	display: block;
+}
+}
+nav{
+	width: 100%;
+	height:44px;
+	background: #000;
+	opacity: 0.8;
+}
+nav a{
+	color: #fff;
+}
+header nav main{
+	margin: 0 auto;
+}
+nav main ul{
+	text-align: justify;
+	line-height: 44px;
+	color: #fff;
+}
+nav main ul li{
+	
+	display: inline-block;
+	
+}
+nav main ul:after{
+    content: "";
+	display: inline-block;
+	height: 0;
+	width: 100%;
+}
+.banner{
+	width: 100%;
+	height: 550px;
+	background: #fff;
+	position: relative;
+}
+.banner-box{
+	width: 100%;
+	height: 100%;
+	margin-top: 100px;
+}
+.banner-box a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	background-image: url('../image/macbookpro_large.jpg');
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.banner .zuo {
+	width: 10%;
+	height: 100%;
+	/* background: yellow; */
+	position: absolute;
+	left: 0;
+	top: 0px;
+	margin: auto;
+}
+.banner .you {
+	width: 10%;
+	height: 100%;
+	/* background: yellow; */
+	position: absolute;
+	right: 0;
+	top: 0px;
+	margin: auto;
+}
+.zuoyuan{
+	width: 64px;
+	height: 64px;
+	background: #ccc;
+	position: absolute;
+	border-radius: 50%;
+	left: 20px;
+	top: 250px;
+	font-size:50px;
+	color: #fff;
+	text-align: center;
+	line-height: 64px; 
+
+}
+.youyuan{
+	width: 64px;
+	height: 64px;
+	background: #ccc;
+	position: absolute;
+	border-radius: 50%;
+	right: 20px;
+	top: 250px;
+	font-size:50px;
+	color: #fff;
+	text-align: center;
+	line-height: 64px; 
+}
+.lunbo{
+	width: 180px;
+	height: 25px;
+	/* background: pink; */
+	position: absolute;
+	right: 0;
+	left: 0;
+	margin: auto;
+	bottom: 20px;
+
+}
+.lunbo1{
+	width: 50px;
+	height: 2px;
+	background: #000;
+	margin-top: 11px;
+	border-radius: 10%;
+	float: left;
+}
+.lunbo2{
+	width: 50px;
+	height: 2px;
+	background: #000;
+	margin-top: 11px;
+	border-radius: 10%;
+	margin-left: 5px;
+	float: left;
+}
+.tu{
+	width: 100%;
+	height: 204px;
+	background: #fff;
+}
+.tu1{
+	height: 100%;
+	background-repeat: no-repeat;
+	float: left;
+	border: 2px solid #fff;
+}
+.tu2{
+	height: 100%;
+	background-repeat: no-repeat;
+	float: left;
+	border: 2px solid #fff;
+}
+.tu3{
+	height: 100%;
+	background-repeat: no-repeat;
+	float: left;
+	border: 2px solid #fff;
+}
+.tu4{
+	height: 100%;
+	float: left;
+	border: 2px solid #fff;
+	background-repeat: no-repeat;
+}
+.footer{
+	width: 100%;
+	
+	background: #f2f2f2;
+	overflow: hidden;
+}
+/* .footer main{
+	width:980px;
+	height: 100%;
+	margin: 0 auto;
+} */
+.footer-top{
+	font-size: 11px;
+	color: #888;
+	padding: 17px 0 15px;
+	border-bottom: 1px solid  #d6d6d6;
+}
+.footer-bottom{
+     width: 100%;
+    
+     margin: 0 auto;
+     padding-top: 20px;
+     font-size: 13px;
+     overflow: hidden;
+}
+.footer-bottom .ul1{
+
+	float: left;
+	width: 20%;
+
+}
+
+.footer-bottom .ul1 li{
+	/* margin-bottom: 6px; */
+    color: #000;
+    /* text-aligsn: justify; */
+
+}
+.footer a:hover{
+	text-decoration: underline;
+}
+.footer-di{
+	width: 100%;
+	height: 24px;
+	/* background: yellow; */
+	margin-top: 20px;
+	padding-bottom: 6px;
+	border-bottom: 1px solid #d6d6d6;
+	margin-bottom: 7px;
+	font-size: 11px;
+	color: #b0b0b0;
+}
+.footer-di1{
+	width: 100%;
+	height: 24px;
+	/* background: yellow; */
+	margin-top: 10px;
+	padding-bottom: 6px;
+/* 	border-bottom: 1px solid #d6d6d6; */
+	margin-bottom: 7px;
+	font-size: 11px;
+	color: #b0b0b0;
+}
+
+.footer-bottom1 ul li{
+    display: inline-block;
+    line-height: 38px;
+
+}
+.footer-bottom1 ul{
+	width: 100%;
+	height: 38px;
+	text-align: justify;
+	border-bottom: 1px solid #d6d6d6;
+}
+.footer-bottom1 ul:after{
+	content:"";
+	display: inline-block;
+	height: 0;
+	width: 100%;
+}
