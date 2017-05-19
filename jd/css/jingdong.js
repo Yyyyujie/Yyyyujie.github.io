@@ -143,7 +143,7 @@ $(".byou2-1 li").mouseover(function () {
             num2=0;
             // inner.style.transition="all 1s";
         }
-      /*  inner.style.left=-570*num2+"px";*/
+        inner.style.left=-570*num2+"px";
     }
 
     you3.onclick=function () {
@@ -224,4 +224,19 @@ var gdtop=$(".topbar");
         $(".rb").eq(index).css("left","35px");
         $(".rb").eq(index).css("background","")
     })
+
+
+    $(".banner-zuo>ul>li").mouseover(function () {
+        var index=$(this).index();
+        $(".bannerlist").eq(index).show();
+    })
+
+    $(".banner-zuo>ul>li").mouseout(function () {
+        var index=$(this).index();
+        $(".bannerlist").eq(index).hide();
+    })
+
+
+
         })//结束
+

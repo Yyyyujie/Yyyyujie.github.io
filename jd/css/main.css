@@ -253,6 +253,9 @@ body{
     padding-left: 12px;
     font-size: 14px;
 }
+.banner-zuo ul li:hover{
+    background-color: #cecece;
+}
 .banner{
     width:790px;
     height:480px;
@@ -1333,6 +1336,7 @@ margin-bottom: 30px;
     width:100%;
     height:465px;
     padding:10px;
+    position: relative;
 }
 .a1a-b1{
     float: left;
@@ -2644,4 +2648,142 @@ margin-bottom: 30px;
 }
 .con1 img{
     transition: all .5s;
+}
+.bannerlist{
+    width: 852px;
+    height: 500px;
+    background: #ffffff;
+    /*background-image: url(../img/2017-03-17_205324.png);
+    background-repeat: no-repeat;
+    background-size: contain;*/
+    box-shadow: 0.5px 1px 5px 2px #e0e0e0;
+    position: absolute;
+    top: 0;
+    left: 190px;
+    z-index: 99999;
+    display: none;
+}
+.xzliszuo{
+    float: left;
+    width: 583px;
+    height: 462px;
+    margin: 19px 30px;
+    overflow: hidden;
+    background-color: #fff;
+
+}
+.zuolist{
+    padding: 20px 0;
+}
+.zzcc{
+    width: 70px;
+    color: #333;
+    margin-right: 20px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 22px;
+    height: 22px;
+    float: left;
+}
+.zzcc2{
+    width: 493px;
+    float: left;
+}
+.zzcc2 .xllist{
+    display: block;
+    height: 22px;
+    line-height: 22px;
+    font-size: 12px;
+    color: #000;
+    font-weight: 500;
+    float: left;
+    padding-left: 15px;
+}
+.xzlisyuo{
+    float: right;
+    background-color: #FAFAFA;
+    width: 189px;
+    padding: 10px;
+    height: 480px;
+}
+.xzlisyuoS .cheLOGO{
+    display: block;
+    float: left;
+    width: 73px;
+    height: 37px;
+    margin-right: 1px;
+    margin-bottom: 1px;
+    padding: 5px 10px;
+    /*overflow: hidden;*/
+    background-color: #fff;
+
+}
+.xzlisyuoS .cheLOGO img{
+    width: 73px;
+    height: 37px;
+    opacity: 1;
+}
+.xzlisyuoS .cheLOGO img:hover{
+    opacity: 0.7;
+}
+.xzlisyuoX .cheLOGO1{
+    display: block;
+
+    background-color: #fff;
+    padding: 0;
+}
+.xzlisyuoX .cheLOGO1 img{
+    width: 189px;
+    height: 87px;
+    margin: 10px 0 0 -2px;
+}
+.xllist1{
+    color: #427def!important;
+}
+.shangbox{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 590px;
+    height: 35px;
+}
+.addlogo{
+    height: 35px;
+    margin-top: 10px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.addlogo2{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+}
+.addlogo3{
+    position: absolute;
+    bottom: 0;
+    left: 573px;
+
+}
+.addlogo ul{
+    width: 573px;
+    height: 335px;
+}
+.addlogo ul li{
+    height: 35px;
+    width: 98px;
+    float: left;
+    border-right: 1px solid #dedfe0;
+    padding: 0 12px;
+}
+.addlogo ul li:last-child{
+    width: 70px;
+    border-right: 0;
+}
+.addlogo ul li a img{
+    opacity: 1;
+}
+.addlogo ul li a img:hover{
+    opacity: 0.7;
 }
