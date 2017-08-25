@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Canvas</title>
+    <link rel="stylesheet" href="css/canvas.css">
+    <script src="js/jquery.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/shape.js"></script>
+</head>
+<body>
+<div class="menubox">
+    <ul class="menu">
+        <li class="parent one">
+            <span>新建</span>
+        </li>
+        <li class="parent two">
+            <span>保存</span>
+        </li>
+        <li class="parent three">
+            <span>撤销</span>
+        </li>
+        <li class="parent four">
+            <span>清空</span>
+        </li>
+        <li class="biaoti">
+            <span>My drawing board</span>
+        </li>
+    </ul>
+</div>
+<div class="tools">
+    <div class="con">
+        <h1>工具箱</h1>
+        <a href="javascript:;" data-type="line" class="a">直线工具 </a>
+        <a href="javascript:;" class="pen" class="a">画笔工具</a>
+        <a href="javascript:;" data-type="rect" class="a">矩形工具</a>
+        <a href="javascript:;" data-type="arc" class="a">圆形工具</a>
+        <a href="javascript:;" data-type="bian" class="a">多边形工具</a>
+        <a href="javascript:;" data-type="jiao" class="a">多角形工具</a>
+        <a href="javascript:;" class="tianchong">选择填充</a>
+        <a href="javascript:;" class="miaoxian">选择描边</a>
+        <a href="javascript:;" class="xp">橡皮檫</a>
+    </div>
+</div>
+
+
+<div class="box">
+    <canvas height="500" width="800" ></canvas>
+    <div class="copy">
+
+    </div>
+    <div class="copy1">
+        <div class="xpele"></div>
+    </div>
+</div>
+
+
+
+<div class="color">
+    <h1>选择属性</h1>
+    <div class="con">
+        <div>
+            填充颜色 <input type="color">
+        </div>
+        <div>
+            线条颜色 <input type="color">
+        </div>
+        <div>
+            选择边数或角数<input type="range" max="10" min="2" value="3"><br/>
+        </div>
+        <div>
+            线条宽度<input type="range" max="100" min="1" value="1"><br/>
+        </div>
+    </div>
+
+</div>
+
+
+
+
+
+<!--<div class="message">请选择工具后作图！</div>-->
+</body>
+</html>

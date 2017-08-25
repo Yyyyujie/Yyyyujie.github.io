@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Angular作品</title>
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/todolist.css">
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/angular/angular.min.js"></script>
+    <script src="js/todolist.js"></script>
+</head>
+<body ng-app="myapp">
+<div class="container-fluid" ng-controller="ctrl">
+    <div class="row" >
+        <div class="top col-xs-12 col-sm-12">Angular  To-do-list</div>
+    <!--left-->
+      <div class="left col-xs-4 col-sm-3">
+      <!--search-->
+          <div class="search">
+            <div class="sear glyphicon glyphicon-search"></div>
+              <input type="text" placeholder="search" class="inputsearch" ng-model="search">
+          </div>
+          <!--search-->
+
+
+          <!--已完成-->
+          <div class="finish clear">
+              <div class="glyphicon glyphicon-time finishfont"></div>
+              <div class="finishcon" ng-click="finishw()">已完成计划</div>
+              <div class="success">{{successdata.length}}</div>
+          </div>
+          <!--已完成-->
+
+          <!--todolist-->
+
+          <div class="todolist clear">
+              <div class="glyphicon glyphicon-time listfont"></div>
+              <div class="listcon">计划事项</div>
+          </div>
+          <!--todolist-->
+
+          <!--新建-->
+          <div class="cons clear" ng-repeat="item in data | filter:{title:search} track by item.id">
+              <input type="text" ng-model="item.title" ng-focus="focus(item.id)"  ng-blur="blur()">
+              <div class="glyphicon glyphicon-trash delbtn" ng-click="dellist(item.id)"></div>
+          </div>
+          <!--新建-->
+
+           <!--add-->
+          <div class="addlists clear" ng-click="addlist()">
+              <div class="glyphicon glyphicon-plus-sign addlistfont"></div>
+              <div class="addlist">新建列表</div>
+          </div>
+          <!--add-->
+
+      </div>
+    <!--left-->
+
+    <!--right-->
+        <div class="right col-xs-8 col-sm-9" ng-show="show">
+            <!--biaoti-->
+           <div class="titles clear">
+               <div class="title">{{currentArr.title}}</div>
+               <div class="glyphicon glyphicon-plus-sign titleadd" ng-click="addcon()"></div>
+
+           </div>
+            <!--biaoti-->
+
+
+
+            <!--con-->
+            <div class="rightcons clear" ng-repeat="item in currentArr.son track by $index">
+                <div class="glyphicon glyphicon-chevron-left fin " ng-click="done(item.id)"></div>
+
+                <input type="text" ng-model="item.con" ng-blur="blur()" class="aa">
+                <div class="glyphicon glyphicon-trash delbtncon" ng-click="delcon(item.id)"></div>
+            </div>
+            <!--con-->
+
+        </div>
+    <!--right-->
+
+
+
+
+
+
+
+        <!--right-->
+        <div class="right col-xs-8 col-sm-9" ng-show="!show">
+            <!--biaoti-->
+            <div class="titles clear">
+                <div class="title">已完成事项</div>
+
+            </div>
+            <!--biaoti-->
+
+
+
+            <!--con-->
+            <div class="rightcons clear" ng-repeat="item in successdata track by $index">
+                <div >{{item.con}}</div>
+                <div class="glyphicon glyphicon-trash delbtncon" ng-click="delfin(item.id)"></div>
+            </div>
+            <!--con-->
+
+        </div>
+        <!--right-->
+    </div>
+</div>
+</body>
+</html>

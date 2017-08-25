@@ -1,0 +1,232 @@
+/*
+* @Author: ASUS
+* @Date:   2017-03-31 18:52:00
+* @Last Modified by:   ASUS
+* @Last Modified time: 2017-04-01 17:29:14
+*/
+.da{
+	width: 100%;
+	height: 100%;
+	
+    position: absolute;
+    left: 0;
+    top: 0;
+    /* padding-top: 0.2rem; */
+    background: black;
+    opacity: 0.7; 
+    z-index: 888;
+}
+.beijing{
+	width: 5.28rem;
+	height: 3.86rem;
+	position: absolute;
+	left: 1.12rem;
+	top: 4.5rem;
+	background-image: url('../img/beijing.png');
+	background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    z-index: 999;
+    position: relative;
+    float: left;
+}
+.beijing .bahezi{ 
+	width:4rem; 
+	height: 1rem;
+    position: absolute;
+    left: 1.2rem;
+    top: 0.3rem;
+}
+
+.beijing .zise{
+	position: absolute;
+    left: -0.3rem;
+    top: 0rem;
+}
+.beijing .lanse{
+	position: absolute;
+    left: -0.16rem;
+    top: 0rem;
+}
+.beijing .zise1{
+	position: absolute;
+    right:-2.2rem;
+    top: 0rem;
+}
+.beijing .lanse1{
+	position: absolute;
+    right: -1.8rem;
+    top: 0rem;
+}
+.beijing .qianshu1{
+	width:4rem; 
+	height: 1rem;
+    position: absolute;
+    left: 0.5rem;
+    top: 0.9rem;
+}
+.beijing .qianshu1 p{
+	font-size: 0.7rem;
+	color: #ff7928;
+	text-align: center;
+	margin-top: 0.3rem;
+}
+.beijing .xuxian{
+	width: 100%;
+	height: 0.5rem;
+	position: absolute;
+    left: 0rem;
+    top: 2.01rem;
+	border-bottom: 0.01rem dashed black;
+}
+.beijing .dian{
+	width:4rem; 
+	height: 1rem;
+    position: absolute;
+    left: 0.5rem;
+    top: 2.8rem;
+}
+
+.xuan{
+    width: 3.87rem;
+    height: .74rem;
+    background: #31363a;
+    border-radius: 20px;
+    position: absolute;
+    bottom: 4.7rem;
+    left: 1.82rem;
+    border: 1px solid #fff;
+}
+.zuo{
+    width: 48%;
+    height: .6rem;
+    margin-top: .05rem;
+    background: linear-gradient(-45deg,rgba(142, 131, 202, .9),rgba(35, 190, 149, .9));
+    border-radius: 20px;
+    margin-left: .05rem;
+    float: left;
+}
+.zuo ul li:nth-child(1){
+    width: .15rem;
+    height: .06rem;
+    /* background: red; */
+    margin-left: .2rem;
+    margin-top: .29rem;
+    float: left;
+}
+.zuo ul li div{
+    width: .06rem;
+    height: .06rem;
+    background: #fff;
+    border-radius: 50%;
+    float: left;
+    margin-right: .03rem;
+}
+.zuo ul li div:nth-child(2){
+   margin-right: 0;
+}
+.zuo ul li:nth-child(2){
+    width: .97rem;
+    height: .39rem;
+    /* background: red; */
+    float: left;
+    margin-top: .14rem;
+    margin-left: .11rem;
+}
+.zuo ul li:nth-child(2) span{
+   font-size: 0.22rem;
+   font-family: "苹方";
+   text-align: center;
+   line-height: .24rem;
+   color: #fff;
+   float: left;
+}
+.zuo ul li:nth-child(2) span:nth-child(2){
+   font-size: .16rem;
+   font-family: "San Francisco";
+   text-align: center;
+   line-height: .16rem;
+   color: #fff;
+}
+.zuo ul li:nth-child(3){
+    width: .15rem;
+    height: .06rem;
+    /* background: red; */
+    margin-left: .09rem;
+    margin-top: .29rem;
+    float: left;
+}
+.you{
+    width: 48%;
+    height: .6rem;
+    margin-top: .05rem;
+    /* background: linear-gradient(-45deg,rgba(142, 131, 202, .9),rgba(35, 190, 149, .9)); */
+    /* border-radius: 20px; */
+    margin-right: .05rem;
+    float: right;
+}
+.you ul li:nth-child(1){
+    width: .15rem;
+    height: .06rem;
+    /* background: red; */
+    margin-left: .2rem;
+    margin-top: .29rem;
+    float: left;
+}
+.you ul li div{
+    width: .06rem;
+    height: .06rem;
+    background: #fdd01e;
+    border-radius: 50%;
+    float: left;
+    margin-right: .03rem;
+}
+.you ul li div:nth-child(2){
+   background: #1ec932;
+}
+.you ul li div:nth-child(2){
+   margin-right: 0;
+}
+.you ul li:nth-child(2){
+    width: .97rem;
+    height: .39rem;
+    /* background: red; */
+    float: left;
+}
+.you ul li:nth-child(2) span{
+   font-size: 0.22rem;
+   font-family: "苹方";
+   text-align: center;
+   line-height: .24rem;
+   color: #fff;
+   float: left;
+}
+.you ul li:nth-child(2) span:nth-child(1){
+    margin-top: 0.15rem;
+}
+.you ul li:nth-child(2) span:nth-child(2){
+   font-size: .16rem;
+   font-family: "San Francisco";
+   text-align: center;
+   line-height: .16rem;
+   color: #fff;
+}
+.you ul li:nth-child(3){
+    width: .15rem;
+    height: .06rem;
+    /* background: red; */
+    margin-left: .09rem;
+    margin-top: .29rem;
+    float: left;
+}
+.queren{
+    width: 2rem;
+    height: 1rem;
+    background-image: url('../img/queren.png');
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0rem;
+    top: 1.9rem;
+}

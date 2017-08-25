@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+    html,body{
+        height:100%;
+        margin:0;
+        overflow: hidden;
+    }
+    .box{
+        width:100%;
+        height:100%;
+        background: #ccc;
+        margin: 0 auto;
+        background-image: url("image/bg.png");
+        background-position: center;
+        background-size: cover;
+        position: relative;
+    }
+    .zuo{
+        width:80%;
+        height:100%;
+        float: left;
+        /*background: #62ec95;*/
+        position: relative;
+    }
+    .you{
+        width:20%;
+        height:100%;
+        float: left;
+        /*background: #22ffd1;*/
+    }
+    .y1{
+        width:80%;
+        height:80px;
+        background: #fff;
+        margin:0 auto;
+        font-weight: bold;
+        text-align: center;
+        line-height: 40px;
+        margin-top: 10px;
+        border-radius: 10px;
+
+    }
+    .scor,.state,.life{
+        width:80%;
+        height:40px;
+        background: #c8eebf;
+        margin:0 auto;
+        line-height: 40px;
+        text-align: center;
+        border-radius: 10px;
+    }
+    .xia{
+        width:130px;
+        height:130px;
+        font-weight: bold;
+        text-align: center;
+        line-height:80px;
+        font-size: 30px;
+        position: absolute;
+    }
+    .btn{
+        width:80%;
+        height:50px;
+        background: #3ccda8;
+        margin:0 auto;
+        margin-top: 10px;
+        border-radius: 10px;
+        text-align: center;
+        line-height: 50px;
+        font-size: 20px;
+        color: #fff;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    .over{
+        width:486px;
+        height:420px;
+        background-image: url("image/over.png");
+        position: absolute;
+        left:0;
+        top:0;
+        bottom:0;
+        right:0;
+        margin: auto;
+    }
+    .cj{
+        width:120px;
+        height:30px;
+        position: absolute;
+        top:157px;
+        right:67px;
+        color: #fff;
+        font-size: 30px;
+        font-weight: bold;
+        line-height: 30px;
+    }
+    .best{
+        width:200px;
+        height:130px;
+        position: absolute;
+        top:240px;
+        right:79px;
+        font-size: 30px;
+        text-align: left;
+        color: #fff;
+        line-height: 40px;
+        font-weight: bold;
+    }
+    .s1{
+        width:100%;
+        height:100%;
+        overflow: hidden;
+    }
+    .enter{
+        width: 600px;
+        height:400px;
+        position: absolute;
+        left:0;
+        right:0;
+        top:0;
+        bottom:0;
+        margin:auto;
+        transition: all .5s;
+        animation: move 1s linear infinite;
+    }
+    .enter input{
+        width:200px;
+        height:50px;
+        background: #A6E24D;
+        border-radius: 20px;
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+        color: #fff;
+        position: absolute;
+        left:0;
+        right:0;
+        margin:auto;
+        bottom:60px;
+        outline: none;
+        border-color: #1cce14;
+    }
+    @keyframes move{
+        0%{
+            transform:translateX(0);
+        }
+        25%{
+            transform:translateX(-30px);
+        }
+        50%{
+            transform:translateX(0px);
+        }
+        75%{
+            transform:translateX(30px);
+        }
+        100%{
+            transform:translateX(0);
+        }
+    }
+    .close{
+        width:35px;
+        height:35px;
+        background: rgba(0, 0, 0, 0.76);
+        border-radius: 50%;
+        position: absolute;
+        right:5px;
+        top:20px;
+        padding:5px;
+        cursor: pointer;
+    }
+    .close img{
+        width:100%;
+        height:100%;
+    }
+    .mask{
+        width:100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.72);
+        position:absolute;
+        left:0;
+        top:0;
+        display: none;
+    }
+</style>
+<body>
+<div class="box">
+    <div class="s1">
+    <div class="enter">
+        <img src="image/logo.png" alt="">
+        <input type="button" value="进入游戏">
+    </div>
+    </div>
+    <div class="zuo"></div>
+    <div class="you">
+        <div class="y1">得分
+            <div class="scor">0</div>
+        </div>
+        <div class="y1">关卡
+            <div class="state">1</div>
+        </div>
+        <div class="y1">生命
+            <div class="life">5</div>
+        </div>
+        <div class="btn start">开始</div>
+        <div class="btn parse">暂停</div>
+    </div>
+    <div class="mask">
+    <div class="over">
+        <div class="cj"></div>
+        <div class="best"></div>
+        <div class="close">
+            <img src="image/关闭.png" alt="">
+        </div>
+    </div>
+</div>
+</div>
+</body>
+<script>
+    var zuo=document.querySelector(".zuo");
+    var scor=document.querySelector(".scor");
+    var state=document.querySelector(".state");
+    var life=document.querySelector(".life");
+    var parse=document.querySelector(".parse");
+    var chengji=document.querySelector(".over");
+    var cj=document.querySelector(".cj");
+    var best=document.querySelector(".best");
+    var st;
+    var  startcontrol;
+    class Game{
+        constructor(){
+            this.zuo=zuo;
+            this.num=3;
+            this.obj={};
+            this.grade=scor;
+            this.scor=0;
+            this.state1=state;
+            this.state=1;
+            this.speed=5;
+            this.life=5;
+            this.life1=life;
+            this.bestscor=localStorage.bestscor?JSON.parse(localStorage.bestscor):[];
+
+        }
+        createLetter(){
+            var div=document.createElement("div");
+            div.className="xia";
+            do{
+                var rn=Math.floor(Math.random()*26+65);
+                var le=String.fromCharCode(rn);
+            }while(this.obj[le]);
+            div.style.background="url(image/"+le+".png) no-repeat center";
+//            div.innerHTML=le;
+            do{
+                var rl=Math.random()*1000;
+            }while(this.check(rl));
+            var rt=Math.random()*100;
+            div.style.left=rl+"px";
+            div.style.top=rt+"px";
+            this.obj[le]={left:rl,top:rt,el:div};
+            this.zuo.appendChild(div);
+        }
+        check(left){
+            for(var i in this.obj){
+                if(left>this.obj[i].left-130&&left<this.obj[i].left+130){
+                    return true;
+                }
+            }
+        }
+        start(){
+            for(var i=0;i<this.num;i++){
+                this.createLetter();
+            }
+            this.move();
+            this.keydown();
+            this.bestscor=localStorage.bestscor?JSON.parse(localStorage.bestscor):[];
+
+        }
+        move(){
+           this.st=setInterval(function () {
+                for(var i in this.obj){
+                    var t=this.obj[i].top;
+                    t+=this.speed;
+                    this.obj[i].top=t;
+                    this.obj[i].el.style.top=t+"px";
+                    if(t>window.innerHeight){
+                        this.life--;
+                        this.life1.innerHTML=this.life;
+                        this.zuo.removeChild(this.obj[i].el);
+                        delete this.obj[i];
+                        this.createLetter();
+                        if(this.life==0){
+                            this.gameover();
+                            return;
+                        }
+                    }
+                }
+            }.bind(this),80)
+        }
+        parse(){
+            clearInterval(this.st);
+            document.onkeydown=null;
+        }
+        play(){
+            this.move();
+            this.keydown();
+        }
+        gameover(){
+//            alert(`游戏结束得分为${this.scor}`);
+
+
+            if(this.bestscor.length<3||(this.bestscor.length>=3&&this.scor>this.bestscor[2].scor)){
+                var player=prompt("请输入姓名");
+                this.bestscor.push({player,scor:this.scor});
+                this.bestscor.sort(function (a,b) {
+                    if(a.scor>b.scor){
+                        return -1;
+                    }else{
+                        return 1;
+                    }
+                });
+            }
+            if(this.bestscor.length>3){
+                this.bestscor.pop();
+            }
+            localStorage.bestscor=JSON.stringify(this.bestscor);
+
+            this.bestscor=localStorage.bestscor?JSON.parse(localStorage.bestscor):[];
+
+            mask.style.display="block";
+            cj.innerHTML=`${this.scor}`;
+            best.innerHTML=`${this.bestscor[0].player}:${this.bestscor[0].scor}&nbsp;<br>${this.bestscor[1].player}:${this.bestscor[1].scor}&nbsp;<br>${this.bestscor[2].player}:${this.bestscor[2].scor}`
+            clearInterval(st);
+            this.zuo.innerHTML="";
+            this.obj={};
+            this.speed=5;
+            this.scor=0;
+            this.grade.innerHTML=0;
+            this.life=5;
+            this.life1.innerHTML=5;
+            this.state=1;
+            this.state1.innerHTML=1;
+           startcontrol=true;
+        }
+        keydown(){
+            document.onkeydown=function (e) {
+                var keycode=e.keyCode;
+                var le=String.fromCharCode(keycode);
+                if(this.obj[le]){
+                    this.zuo.removeChild(this.obj[le].el);
+                    delete this.obj[le];
+                    this.scor++;
+                    this.grade=scor;
+                    this.grade.innerHTML=this.scor;
+                    if(this.scor%10==0){
+                        this.up();
+                    }
+                    this.createLetter();
+
+                }
+
+            }.bind(this);
+        }
+        up(){
+            this.state++;
+            this.state1.innerHTML=this.state;
+            if(this.state<=4){
+                this.createLetter();
+            }else{
+                this.speed++;
+            }
+        }
+    }
+
+
+
+
+//    game.start();
+    var start=document.querySelector(".start");
+      startcontrol=true;
+        start.onclick=function () {
+            if(startcontrol){
+                startcontrol=false;
+            game.start();
+        }
+    };
+    var game=new Game(zuo,scor,state,life);
+    var flag=true;
+    parse.onclick=function () {
+        if(flag){
+            parse.innerHTML="继续";
+            game.parse();
+        }else{
+           parse.innerHTML="暂停";
+            game.play();
+        }
+        flag=!flag;
+    }
+
+var s1=document.querySelector(".s1");
+    var button=document.querySelector(".enter input");
+    var enter=document.querySelector(".enter");
+    button.onclick=function () {
+        s1.style.display="none"
+    }
+var over=document.querySelector(".over");
+    var mask=document.querySelector(".mask")
+    var close=document.querySelector(".close");
+    close.onclick=function () {
+        mask.style.display="none";
+    }
+
+</script>
+</html>

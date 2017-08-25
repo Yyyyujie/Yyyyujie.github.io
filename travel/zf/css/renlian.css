@@ -1,0 +1,157 @@
+/*
+* @Author: ASUS
+* @Date:   2017-04-01 13:19:05
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-04-19 19:49:53
+*/
+.quanbu{
+	width: 100%;
+	overflow: hidden;
+}
+.tatle{
+	width: 100%;
+	height: 1rem;
+	background: linear-gradient(90deg,#8e83ca,#23be95);
+	position: relative;
+	z-index: 999;
+}
+.zuo{
+	width: 0.54rem;
+	height: 0.6rem;
+	position: absolute;
+	top: 0.22rem;
+	left: 0.2rem;
+	background-image: url('../img/images/fanhui.png');
+	background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.zhong{
+	width: 1.9rem;
+	height: 100%;
+	margin: 0 auto;
+	/* background: red; */
+}
+.zhong div{
+	padding-top: 0.02rem;
+    font-size: 0.28rem;
+    color: white;
+    text-align: center;
+}
+.zhong .dingdan{
+	font-size: 0.2rem;
+    color: white;
+}
+.zhong .hang{
+	height: 0.1rem;
+	width: 1.4rem;
+	float: left;
+	margin-left: 0.18rem;
+	/* background-color: red; */
+	position: relative;
+}
+.zhong .hang div{
+	text-align: center;
+	float: left;
+	
+}
+.hang .dian1{
+    position: absolute;
+    left: 0;
+    bottom:-0.03rem;
+    font-size: 0.05rem;
+    color: white;
+}
+.hang .dian2{
+    position: absolute;
+    right: 0;
+    bottom:-0.03rem;
+    font-size: 0.05rem;
+    color: white;
+}
+.zhong .hang .lan{
+	width: 0.1rem;
+	height: 0.1rem;
+	float: left;
+	border-radius: 50%;
+	background-color: blue;
+	 position: absolute;
+    left: 0.55rem;
+    top: 0.04rem;
+}
+.zhong .hang .lv{
+	width: 0.1rem;
+	height: 0.1rem;
+	float: left;
+	border-radius: 50%;
+	background-color: green;
+	 position: absolute;
+    right: 0.55rem;
+    top: 0.04rem;
+}
+.you{
+	font-size: 0.24rem;
+	color: white;
+	position: absolute;
+	top: 0.32rem;
+	right: 0.3rem;
+}
+.tu{
+	width: 100%;
+	height: 7.65rem;
+	background-image: url('../img/shibie.png');
+	background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.zhezhao{
+	width: 100%;
+	height: 6.65rem;
+	background-image: url('../img/5503.gif');
+	background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 1rem;
+    left: 0;
+    z-index: 55;
+    opacity: 0.8;
+}
+.wenzi{
+	width: 100%;
+	height: 1rem;
+	/* background: red; */
+	position: absolute;
+    top: 8.2rem;
+    left: 0;
+}
+.wenzi p{
+	text-align: center;
+	font-size: 0.2rem;
+	color: black;
+}
+.jindu{
+	width: 50%;
+	height: 0.1rem;
+	border-radius: 0.1rem;
+	margin: 0 auto;
+	background: #e3e3e3;
+	position: absolute;
+    top: 9.2rem;
+    left: 1.88rem;
+}
+.di{
+	width: 100%;
+	height: 3.68rem;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	background-image: url('../img/dibu_03.gif');
+	background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}

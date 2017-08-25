@@ -1,0 +1,150 @@
+body{
+    padding:0;margin:0;
+    user-select:none;
+    font-family:"微软雅黑";
+    background: url(../img/bg.jpg) no-repeat;
+    background-size: 100% 700px;
+}
+h1,h2,h3,h4,h5,h6{
+   font-weight: normal;
+    text-align: center;
+}
+ul,li{
+    margin:0;padding:0;
+    list-style:none;
+}
+
+.menubox{
+    width:100%;
+    background:#fff;
+    opacity: 0.5;
+    position:absolute;
+    top:100px;left:0;
+
+}
+.menu{
+    width:1200px;
+    height:40px;
+
+    margin:0 auto;
+}
+.parent{
+    width:6%;float: left;
+    height:100%;
+    text-align: center;
+    line-height: 40px;
+    margin-left:5px;
+    box-sizing: border-box;
+    cursor:pointer;
+}
+
+.biaoti{
+    float:none;
+    margin:0 auto;
+    color:#fff;
+    line-height:100px;
+    font-size:50px;
+    width:500px;
+    text-align: center;
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
+    margin:auto;
+}
+
+
+.tools{
+    height:500px;
+    width:250px;
+    background: #ccc;
+    opacity: 0.5;
+    border:4px solid #A8BBD7;
+    position:absolute;
+    top:150px;left:10px;
+}
+.box{
+    width:800px;
+    height: 500px;
+    position:absolute;
+    top:150px;left:00px;right:0;
+    margin:auto;
+}
+canvas{
+    position:absolute;
+    top:0px;left:0px;right:0;
+    margin:auto;
+}
+.copy{
+    width:800px;
+    height: 500px;
+    position:absolute;
+    top:0px;left:0px;right:0;
+    margin:auto;
+    z-index:2;
+}
+.copy1{
+    width:800px;
+    height: 500px;
+    position:absolute;
+    top:0px;left:0px;right:0;
+    margin:auto;
+    /*background:blue;*/
+    z-index: 1;
+}
+.color{
+    height:500px;
+    width:250px;
+    border:4px solid #A8BBD7;
+    position: relative;
+    position:absolute;
+    top:150px;right:10px;
+    background: #fff;
+    opacity: 0.5;
+}
+.xpele{
+    width: 20px;
+    height: 20px;
+    border:1px solid #ccc;
+    position: absolute;
+    top:0;
+    left:0;
+    display: none;
+}
+.con{
+    width:180px;
+    text-align: center;
+    margin:0 auto;
+    line-height:50px;
+}
+.tools .con{
+    line-height:38px;
+    text-align: left;
+}
+.con div{
+    margin:30px auto 30px auto;
+}
+
+.tools a{
+    padding-left:40px;
+    display:block;
+    color:#000;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 2s;
+}
+.tools a:hover{
+    background:#000;
+    color:#fff;
+}
+.message{
+    width:230px;
+    height: 30px;
+    color: #888;
+    font-size:24px;
+    position: fixed;
+    top:150px;
+    left:290px;
+
+}
+

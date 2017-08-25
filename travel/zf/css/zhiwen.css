@@ -1,0 +1,135 @@
+/*
+* @Author: ASUS
+* @Date:   2017-04-01 11:01:24
+* @Last Modified by:   ASUS
+* @Last Modified time: 2017-04-01 12:40:50
+*/
+.quanbu{
+	width: 100%;
+	height:13.34rem;
+	position: relative;
+}
+.zhiwen{
+	width: 50%;
+	height: 25%;
+	position: absolute;
+	left: 25%;
+	top: 10%;
+	background-image: url('../img/zhiwen.png');
+	background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.id1{
+	width: 100%;
+	height: 10%;
+	/* background-color: red; */
+	position: absolute;
+	left: 0;
+	top: 35%;
+}
+.id1 p{
+	font-size:60%;
+	color: #727272;
+	text-align: center;
+	line-height: 220%;
+}
+.zi1{
+	width: 100%;
+	height: 10%;
+	/* background-color: red; */
+	position: absolute;
+	left: 0;
+	top: 45%;
+}
+.zi1 p{
+	font-size:30%;
+	color: #727272;
+	text-align: center;
+	/* line-height: 220%; */
+}
+.xuxian{
+	width: 30%;
+	height: 2%;
+	/* margin: 0 auto; */
+	position: absolute;
+	left: 2.56rem;
+	top: 50%;
+	border-bottom: 0.02rem solid black;
+}
+.qian{
+	width: 100%;
+	height: 8%;
+	/* background-color: red; */
+	position: absolute;
+	left: 0;
+	top: 53%;
+}
+.qian p{
+	font-size: 50%;
+	color: #ff7a2b;
+	text-align: center;
+	line-height: 220%;
+}
+.RMB{
+	width: 100%;
+	height: 5%;
+	/* background-color: red; */
+	position: absolute;
+	left: 0;
+	top: 60%;
+	/* position: relative; */
+}
+.RMB ul{
+	width: 30%;
+	height: 100%;
+	margin: 0 auto;
+	/* background: red; */
+	position: relative;
+}
+.RMB ul li{
+	width: 0.08rem;
+	height: 0.08rem;
+	margin-right: 0.35rem;
+	float: left;
+}
+li .zise{
+    width: 0.1rem;
+    height: 0.1rem;
+    border-radius: 50%;
+    /* position: absolute; */
+    background: #d860ff;
+    position: absolute;
+    left: 0.5rem;
+    top: 0.25rem;
+}
+li .lanse{
+    width: 0.1rem;
+    height: 0.1rem;
+    border-radius: 50%;
+    /* position: absolute; */
+    background: #24c894;
+    position: absolute;
+    left: 0.7rem;
+    top: 0.25rem;
+}
+.li2 .zise1{
+    width: 0.1rem;
+    height: 0.1rem;
+    border-radius: 50%;
+    /* position: absolute; */
+    background: #d860ff;
+    position: absolute;
+    right: 0.48rem;
+    top: 0.25rem;
+}
+.li1 .lanse1{
+    width: 0.1rem;
+    height: 0.1rem;
+    border-radius: 50%;
+    /* position: absolute; */
+    background: #24c894;
+    position: absolute;
+    right: 0.66rem;
+    top: 0.25rem;
+}

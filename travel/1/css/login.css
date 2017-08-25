@@ -1,0 +1,226 @@
+body{
+	width: 100%;
+	height: 13.34rem;
+	background-image: url('../img/1.png');
+	background-repeat: no-repeat;
+	background-position: top;
+	background-size: cover;
+}
+.box{
+	width: 100%;
+	height: 13.34rem;
+	background: rgba(0, 0, 0, .45);
+}
+.love{
+	width: 5.04rem;
+	height: 3.7rem;
+	/* background: red; */
+	
+	position: relative;
+	left: 1.18rem;
+	top: 4.6rem;
+	font-family: "San Francisco Display";
+}
+.love p:nth-child(1){
+	font-size: .45rem;
+	color: #fff;
+	text-align: center;
+	line-height: 1rem;
+}
+.love p{
+	font-size: .2rem;
+	color: #fff;
+	font-weight: 600;
+	/* line-height: .4rem; */
+	text-align: center;
+}
+.love ul{
+	width: .56rem;
+	overflow: hidden;
+	/* background: pink; */
+	margin: 0 auto;
+	margin-top: .36rem;
+}
+
+.love li{
+	width: .12rem;
+	height: .12rem;
+	background: #bcf327;
+	border-radius: 50%;
+	float: left;
+	line-height: .2rem;
+	margin-right: .1rem;
+}
+.love li:nth-child(2){
+    background: #23c7a6;
+}
+.love li:nth-child(3){
+    background: #d860ff;
+    margin-right: 0;
+}
+.denglu{
+	width: 5.13rem;
+	height: .7rem;
+	/* background: red; */
+	position: absolute;
+	bottom: 2.57rem;
+	left: 1.19rem;
+}
+.dl1{
+	width: 2.33rem;
+	height: 100%;
+	background: linear-gradient(90deg,rgba(142, 131, 202, .9),rgba(35, 190, 149, .9));
+	float: left;
+	border-radius: 5px;
+	border: 1px solid #fff;
+}
+.dl2{
+	width: 2.33rem;
+	height: 100%;
+	background: linear-gradient(90deg,rgba(142, 131, 202, .9),rgba(35, 190, 149, .9));
+	float: right;
+	border-radius: 5px;
+	border: 1px solid #fff;
+}
+.dl1 ul li:nth-child(1){
+    width: .15rem;
+    height: .06rem;
+    /* background: red; */
+    margin-left: .4rem;
+    margin-top: .29rem;
+    float: left;
+}
+.dl1 ul li div{
+	width: .06rem;
+	height: .06rem;
+	background: #fff;
+	border-radius: 50%;
+	float: left;
+	margin-right: .03rem;
+}
+.dl1 ul li div:nth-child(2){
+   margin-right: 0;
+}
+.dl1 ul li:nth-child(2){
+    width: .97rem;
+    height: .39rem;
+    /* background: red; */
+    float: left;
+    margin-top: .14rem;
+    margin-left: .11rem;
+}
+.dl1 ul li:nth-child(2) span{
+   font-size: .24rem;
+   font-family: "苹方";
+   text-align: center;
+   line-height: .24rem;
+   color: #fff;
+   float: left;
+}
+.dl1 ul li:nth-child(2) span:nth-child(2){
+   font-size: .16rem;
+   font-family: "San Francisco";
+   text-align: center;
+   line-height: .16rem;
+   color: #fff;
+   margin-left: -.2rem;
+}
+.dl1 ul li:nth-child(3){
+    width: .15rem;
+    height: .06rem;
+    /* background: red; */
+    margin-left: .09rem;
+    margin-top: .29rem;
+    float: left;
+}
+.dl2 ul li:nth-child(1){
+    width: .15rem;
+    height: .06rem;
+    /* background: red; */
+    margin-left: .4rem;
+    margin-top: .29rem;
+    float: left;
+}
+.dl2 ul li div{
+	width: .06rem;
+	height: .06rem;
+	background: #fff;
+	border-radius: 50%;
+	float: left;
+	margin-right: .03rem;
+}
+.dl2 ul li div:nth-child(2){
+   margin-right: 0;
+}
+.dl2 ul li:nth-child(2){
+    width: .97rem;
+    height: .39rem;
+    /* background: red; */
+    float: left;
+    margin-top: .14rem;
+    margin-left: .11rem;
+}
+.dl2 ul li:nth-child(2) span{
+   font-size: .24rem;
+   font-family: "苹方";
+   text-align: center;
+   line-height: .24rem;
+   color: #fff;
+   float: left;
+}
+.dl2 ul li:nth-child(2) span:nth-child(2){
+   font-size: .16rem;
+   font-family: "San Francisco";
+   text-align: center;
+   line-height: .16rem;
+   color: #fff;
+   margin-left: -.2rem;
+}
+.dl2 ul li:nth-child(3){
+    width: .15rem;
+    height: .06rem;
+    /* background: red; */
+    margin-left: .09rem;
+    margin-top: .29rem;
+    float: left;
+}
+.third{
+	width: 2.12rem;
+	height: .49rem;
+	/* background: red; */
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: auto;
+	bottom: .5rem;
+}
+.third span{
+	 font-size: .24rem;
+   font-family: "苹方";
+   text-align: center;
+   line-height: .24rem;
+   color: #fff;
+   float: left;
+   margin-left: .4rem;
+}
+.third span:nth-child(2){
+   font-size: .16rem;
+   font-family: "San Francisco";
+   text-align: center;
+   line-height: .16rem;
+   color: #fff;
+   margin-left: -.03rem;
+}
+.fuhao{
+	width: .27rem;
+	height: .16rem;
+	background-image: url('../img/xia.png');
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: auto;
+	bottom: .17rem;
+}

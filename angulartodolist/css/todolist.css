@@ -1,0 +1,162 @@
+html,body{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.clear:before,.clear:after{
+    content: "";
+    display: block;
+}
+.clear:after{
+    clear:both;
+}
+.container-fluid{
+    height: 100%;
+}
+.container-fluid>.row{
+    height: 100%;
+}
+.container-fluid>.row>.left{
+    height: 100%;
+}
+.top{
+    height:100px;
+    width: 100%;
+    background: #888;
+    font-size: 50px;
+    color: #fff;
+    text-align: center;
+    line-height: 100px;
+}
+.left{
+    background: #1e1e1e;
+}
+.search{
+    height: 50px;
+    margin-top: 20px;
+}
+.sear{
+    height: 50px;
+    font-size: 20px;
+    color: #fff;
+    line-height: 50px;
+    margin-left:20px;
+}
+.inputsearch{
+    margin-left:10px;
+    outline: 0;
+    background: #1e1e1e;
+    border: 0;
+    color:#fff;
+    font-size: 20px;
+
+}
+.finish{
+    margin-top: 20px;
+
+}
+.finishfont{
+    margin-left: 20px;
+    color:#fff;
+    font-size: 20px;
+    float: left;
+}
+.finishcon{
+    float: left;
+    color:#ccc;
+    font-size: 20px;
+    margin-left: 10px;
+}
+.todolist{
+    margin-top: 20px;
+
+}
+.listfont{
+font-size:20px;
+    color:#fff;
+    margin-left: 20px;
+
+    float: left;
+}
+.listcon{
+    font-size: 20px;
+    margin-left: 10px;
+    color:#ccc;
+    float: left;
+}
+.cons{
+    margin-top: 20px;
+
+}
+.cons input{
+    margin-left:50px;
+    outline: 0;
+    background: #1e1e1e;
+    border: 0;
+    color:#ccc;
+    font-size: 20px;
+
+    outline: none;
+    float: left;
+  }
+.delbtn{
+    float: right;
+    font-size:20px;
+    color:#fff;
+    margin-left: 20px;
+   margin-top: -20px;
+}
+.addlists{
+    position: absolute;
+    left:20px;
+    bottom:120px;
+}
+.addlistfont{
+    font-size:20px;
+    color:#fff;
+    margin-left: 20px;
+    float: left;
+}
+.addlist{
+    color:#ccc;
+    font-size: 20px;
+    float: left;
+    margin-left: 20px;
+}
+.titles{
+    line-height: 80px;
+    border-bottom: 2px solid #888;
+}
+.title{
+    font-size: 28px;
+
+    float: left;
+}
+.titleadd{
+    float: right;
+    font-size: 28px;
+    line-height: 80px;
+}
+.rightcons{
+    margin-top: 20px;
+    border-bottom: 1px solid #888;
+
+}
+.rightcons input{
+    outline: none;
+    float: left;
+}
+.delbtncon{
+    float: right;
+}
+.fin{
+    float: left;
+}
+.success{
+    font-size: 20px;
+    color:#ccc;
+    float: right;
+}
+.aa{
+    border:none;
+}

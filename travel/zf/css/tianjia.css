@@ -1,0 +1,332 @@
+/*
+* @Author: ASUS
+* @Date:   2017-04-01 08:21:56
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-04-19 19:49:14
+*/
+.quanbu{
+	width: 100%;
+	overflow: hidden;
+}
+.tatle{
+	width: 100%;
+	height: 1rem;
+	background: linear-gradient(90deg,#8e83ca,#23be95);
+	position: relative;
+}
+.zuo{
+	width: 0.54rem;
+	height: 0.6rem;
+	position: absolute;
+	top: 0.22rem;
+	left: 0.2rem;
+	background-image: url('../img/images/fanhui.png');
+	background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.zhong{
+	width: 3rem;
+	height: 100%;
+	margin: 0 auto;
+	/* background: red; */
+}
+.zhong div{
+	padding-top: 0.02rem;
+    font-size: 0.28rem;
+    color: white;
+    text-align: center;
+}
+.zhong .dingdan{
+	font-size: 0.2rem;
+    color: white;
+}
+.zhong .hang{
+	height: 0.1rem;
+	width: 3rem;
+	float: left;
+	margin-left: 0.18rem;
+	/* background-color: red; */
+	position: relative;
+}
+.zhong .hang div{
+	text-align: center;
+	float: left;
+	
+}
+.hang .dian1{
+    position: absolute;
+    left: 0.5rem;
+    bottom:-0.03rem;
+    font-size: 0.05rem;
+    color: white;
+}
+.hang .dian2{
+    position: absolute;
+    right: 1.2rem;
+    bottom:-0.03rem;
+    font-size: 0.05rem;
+    color: white;
+}
+.zhong .hang .lan{
+	width: 0.1rem;
+	height: 0.1rem;
+	float: left;
+	border-radius: 50%;
+	background-color: blue;
+	 position: absolute;
+    left: 1.2rem;
+    top: 0.04rem;
+}
+.zhong .hang .lv{
+	width: 0.1rem;
+	height: 0.1rem;
+	float: left;
+	border-radius: 50%;
+	background-color: green;
+	 position: absolute;
+    right: 1.9rem;
+    top: 0.04rem;
+}
+.fukuanfangshi{
+	width: 7.03rem;
+	height: 1.5rem;
+	
+	margin: 0.2rem 0;
+	margin-left: 0.24rem;
+	border-radius: 0.2rem;
+	margin-top: 0.25rem;
+	box-shadow: 0 0rem 0.3rem 0rem rgba(0, 0, 0, 0.2);
+	
+}
+.fukuanfangshi ul{
+	position: relative;
+	width: 7.03rem;
+	height: 1.3rem;
+	float: left;
+}
+img{
+	width: 100%;
+	height: 100%;
+}
+.fukuanfangshi ul li{
+	float: left;
+}
+.fukuanfangshi ul .li1{
+	width: 1.1rem;
+	/* height: 100%; */
+	margin-top: 0.1rem;
+	margin-right: 0.1rem;
+}
+.fukuanfangshi ul .li2{
+	width: 0.01rem;
+	height: 0.85rem;
+	background: black;
+	margin-top: 0.22rem;
+	margin-right: 0.3rem;
+}
+.fukuanfangshi ul .li3{
+    width: 5.5rem;
+    padding-top: 0.29rem;
+}
+.fukuanfangshi ul .li3 .hezi{
+	width: 1rem;
+	height: 0.37rem;
+	background: #fd293f;
+	border-radius: 1.1rem;
+	position: absolute;
+	right: 2.1rem;
+	top: 0.26rem;
+}
+.fukuanfangshi ul .li3 .hezi1{
+	width: 1rem;
+	height: 0.37rem;
+	background: linear-gradient(90deg,#8e83ca,#23be95);
+	border-radius: 1.1rem;
+	position: absolute;
+	right: 2.1rem;
+	top: 0.26rem;
+}
+.fukuanfangshi ul .li3 .edu{
+	float: right;
+	position: absolute;
+	right: 0.4rem;
+    top: 0.25rem;
+}
+.fukuanfangshi ul .li4{
+	width: 2rem;
+	height: 1rem;
+	/* background: red; */
+	background-image: url('../img/yinlian.jpg');
+	background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 0.2rem;
+    top: 0.22rem;
+}
+.d3{
+	width: 100%;
+	height: 1rem;
+	margin-left: 0.38rem;
+}
+
+/* .fukuanfangshi1 ul{
+	position: relative;
+	width: 7.03rem;
+	height: 1.3rem;
+	float: left;
+} */
+
+.btnTijiao {
+	width: 6.5rem;
+	height: 0.9rem;
+	margin: 0 auto;
+	background: url('../img/3_03.png') center center no-repeat;
+	background-size: 100%;
+	margin-bottom: 0.86rem;
+	margin-top: 2.7rem;
+	box-shadow: 0 0.05rem 0.3rem 0.1rem rgba(0, 0, 0, 0.2);
+}
+
+.btnTijiao .title {
+	font-size: 0.34rem;
+	line-height: 0.9rem;
+	font-weight: bold;
+	color: white;
+	float: left;
+	margin-left: 1.64rem;
+}
+
+.btnTijiao .right {
+	width: 2.5rem;
+	height: 100%;
+	float: left;
+}
+
+.btnTijiao .title1 {
+	font-size: 0.2rem;
+	line-height: 0.2rem;
+	font-weight: bold;
+	color: white;
+	margin-left: 0.3rem;
+	margin-top: 0.2rem;
+}
+
+.btnTijiao .title1:nth-child(2) {
+	margin-top: 0.05rem;
+}
+.fukuanfangshi1{
+	width: 7.03rem;
+	height: 5rem;
+	
+	margin: 0.2rem 0;
+	margin-left: 0.24rem;
+	border-radius: 0.2rem;
+	margin-top: 0.25rem;
+	box-shadow: 0 0rem 0.3rem 0rem rgba(0, 0, 0, 0.2);
+	
+}
+/* .fukuanfangshi1 ul{
+	position: relative;
+} */
+.fukuanfangshi1 ul li{
+    width: 95%;
+    height: 1rem;
+    /* background: red; */
+    /* margin-top: 0.1rem; */
+    /* padding-top: 0.1rem; */
+    margin: 0 auto;
+    margin-left: 0.17rem;
+    border-bottom: 0.02rem dashed black;
+    position: relative;
+    line-height: 0.3rem;
+
+}
+.fukuanfangshi1 ul .li9{
+	border-bottom:none;
+}
+.fukuanfangshi1 ul .li9 div{
+	width: 0.3rem;
+	height: 0.3rem;
+	border-radius: 50%;
+	border: 0.01rem solid #dddddd;
+	position: absolute;
+	left: 0.2rem;
+    top: 0.3rem;
+
+}
+/* .fukuanfangshi1 ul li div{
+	width: 20%;
+	height: 80%;
+	position: absolute;
+	left: 0.1rem;
+	top: 0.1rem;
+
+	
+
+} */
+.fukuanfangshi1 ul li input{
+	width: 75%;
+	height: 100%;
+	float: right;
+	border: none;
+}
+.fukuanfangshi1 ul .li5 div{
+	width: 0.78rem;
+	height: 0.78rem;
+	background-image: url('../img/yige.png');
+	background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0.2rem;
+    top: 0.1rem;
+}
+.fukuanfangshi1 ul .li6 div{
+	width: 0.78rem;
+	height: 0.78rem;
+	background-image: url('../img/dier.png');
+	background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0.2rem;
+    top: 0.1rem;
+}
+.fukuanfangshi1 ul .li7 div{
+	width: 0.78rem;
+	height: 0.78rem;
+	background-image: url('../img/disan.png');
+	background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0.2rem;
+    top: 0.1rem;
+}
+.fukuanfangshi1 ul .li8 div{
+	width: 0.78rem;
+	height: 0.78rem;
+	background-image: url('../img/sange.png');
+	background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0.2rem;
+    top: 0.1rem;
+}
+.fukuanfangshi1 ul li span{
+	font-size: 0.3rem;
+	color: black;
+	position: absolute;
+	left: 0.8rem;
+    top: 0.3rem;
+}
+.fukuanfangshi1 ul li .span1{
+	font-size: 0.3rem;
+	color: black;
+	position: absolute;
+	left: 1.3rem;
+    top: 0.3rem;
+}

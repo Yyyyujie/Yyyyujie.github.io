@@ -1,0 +1,19 @@
+/*
+* @Author: Lenovo
+* @Date:   2017-03-30 17:20:26
+* @Last Modified by:   Lenovo
+* @Last Modified time: 2017-03-30 17:36:14
+*/
+*{  margin: 0;
+	
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;   /* 去除a标签的下划线 */
+	outline: none;
+}
+a{
+	color: #808080; 
+}
+ul,li{
+	list-style: none;
+}

@@ -1,0 +1,19 @@
+﻿* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	text-decoration: none;
+	/* 去除链接下划线 */
+	font-family: 苹方, 'Microsoft Yahei', 黑体, 宋体, sans-serif;
+	outline: none;
+}
+
+ul,
+ol,
+li {
+	list-style: none;
+}
+
+a {
+	color: black;
+}

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="jQuery.js"></script>
+    <link rel="stylesheet" href="bootstrap.css">
+    <script src="angular.js"></script>
+</head>
+<body ng-app="myApp">
+<div class="container" ng-controller="myCtrl">
+    <div class="row">
+        <div class="col-md-4 col-sm-6" ng-repeat="v in data">
+            <img src={{v.img}} alt="" class="img-thumbnail">
+            <p>{{v.name}}</p>
+            <p>{{v.price}}</p>
+            <button type="button" class="btn btn-primary" ng-click="buy(v)">加入购物车</button>
+        </div>
+
+    </div>
+    <input type="text" ng-model="search" >
+    <table class="table table-bordered" >
+       <tr>
+           <th>编号</th>
+           <th>名称</th>
+           <th>数量</th>
+           <th>单价</th>
+           <th  ng-click="isSort=!isSort">总价</th>
+           <th>操作</th>
+       </tr>
+        <tr ng-repeat="v in car | filter:search|orderBy:'price*num':isSort">
+            <td>{{v.id}}</td>
+            <td>{{v.name}}</td>
+            <td>
+               <button ng-click="jian(v,$index)">-</button> <input type="text" ng-model="v.num"> <button ng-click="jia(v)">+</button>
+               </td>
+            <td>{{v.price}}</td>
+            <td ng-init="isSort=true">{{v.num*v.price}}</td>
+            <td><button type="button" class="btn btn-danger" ng-click="del($index)">删除</button></td>
+        </tr>
+        <tr>
+            <td>总量</td>
+            <td colspan="2">{{totalNum()}}</td>
+            <td>总价</td>
+            <td>{{totalPrice()}}</td>
+            <td><button type="button" class="btn btn-info" ng-click="clear()">清空</button>
+            </td>
+        </tr>
+    </table>
+</div>
+
+</body>
+<script>
+angular.module("myApp",[]).controller("myCtrl",function ($scope) {
+    $scope.data=[
+        {
+            id:1,
+            name:"女装1",
+            price:50,
+            img:'img/me.png'
+        },
+        {
+            id:2,
+            name:"女装2",
+            price:30,
+            img:'img/me1.png'
+        },
+        {
+            id:3,
+            name:"女装3",
+            price:80,
+            img:'img/me2.png'
+        }
+    ];
+    $scope.car=[];
+    $scope.buy=function (v) {
+        var flage=true;
+
+
+        $scope.car.forEach(function (val,index) {
+            if(val.id==v.id){
+                val.num++;
+                flage=false;
+            }
+
+        });
+        if(flage){
+            $scope.car.push({
+                id:v.id,
+                name:v.name,
+                price:v.price,
+                num:1
+            })
+        }
+    };
+    $scope.del=function (index) {
+        $scope.car.splice(index,1);
+    };
+
+    $scope.totalNum=function () {
+        var num=0;
+        $scope.car.forEach(function (val) {
+            num+=parseInt(val.num);
+        });
+        return num;
+    };
+    $scope.totalPrice=function () {
+        var price1=0;
+        $scope.car.forEach(function (val) {
+            price1+=val.num*val.price;
+        });
+        return price1;
+    };
+    $scope.clear=function () {
+        $scope.car=[];
+    };
+    $scope.jian=function (v,index) {
+        v.num--;
+        if(v.num==0){
+           $scope.del(index)
+        }
+    };
+    $scope.jia=function (v) {
+        v.num++;
+    }
+
+
+})
+</script>
+</html>

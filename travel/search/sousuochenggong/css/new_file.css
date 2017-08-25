@@ -1,0 +1,358 @@
+.box{
+	width: 100%;
+	height: auto;
+	 font-family: "苹方","微软雅黑", "Helvetica";
+}
+                                       /*头部开始*/
+.tou{
+	width: 100%;
+	height: 1.2rem;
+	background: linear-gradient(90deg,#8e83ca,#23be95);
+	overflow: hidden;
+	position: relative;
+}
+.nk1{
+	width: 90%;
+	height: 100%;
+	position:absolute;
+	left: 5%;
+}
+.fh{
+	width: 0.6rem;
+	height: 0.6rem;
+	background: url(../img/fanhui.png) center center no-repeat;
+	background-size: 100%;
+	position: absolute;
+	top: 0.3rem;
+}
+.zh{
+	width: 40%;
+	height: 100%;
+	margin: 0 auto;
+	margin-top: 0.15rem;
+	position: relative;
+}
+.zh h6{
+	font-size: 0.25rem;
+	color: white;
+	text-align: center;
+}
+.zh h5{
+	font-size: 0.2rem;
+	color: white;
+	text-align: center;
+	font-weight: 400;
+}
+.dian{
+	font-size: 0.2rem;
+	color: #c7c9c9;
+	position: absolute;
+	bottom:25%;
+	left:30%;
+}
+.dian1{
+	font-size: 0.2rem;
+	color: #c7c9c9;
+	position: absolute;
+	bottom:25%;
+	right:30%;
+}
+.qiu{
+	width: 0.1rem;
+	height: 0.1rem;
+	border-radius: 50%;
+	background: #4094f0;
+	position: absolute;
+	bottom: 29%;
+	left: 45%;
+}
+.qiu1{
+	width: 0.1rem;
+	height: 0.1rem;
+	border-radius: 50%;
+	background: #3fd624;
+	position: absolute;
+	bottom: 29%;
+	right: 45%;
+}
+.qi{
+	width: 12%;
+	height: 1.2rem;
+	font-size:0.2rem;
+	color: white;
+	line-height:1.2rem;
+	position: absolute;
+	top: 0px;
+	right:0px;
+	overflow: hidden;
+}
+.box1{
+	width: 100%;
+	height: 0.5rem;
+	margin: 0 auto;
+	background: #efefef;
+	position: relative;
+}
+.box1 .tt{
+	width: 90%;
+	height: 1rem;
+	font-size: 0.2rem;
+	background: #4a4d55;
+	margin: 0 auto;
+	border-radius:10px;
+	position: relative;
+	left: 5%;
+	top: -40%;
+}
+.hua{
+	background: url(../img/huatong.png) center center no-repeat;
+	background-size: 100%;
+	width: 0.9rem;
+	height: 0.9rem;
+    position: absolute;
+    right: 5%;
+    top: 65%;
+}
+/*搜索结束*/
+.dang{
+	background: url(../img/1.png) center center no-repeat;
+	background-size: 100%;
+	width: 90%;
+	margin: 0 auto;
+	height: 0.6rem;
+	margin-top: 0.7rem;
+}
+.zi{
+	width: 90%;
+	height: auto;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.you{
+	width: 1.1rem;
+	height: 0.35rem;
+	font-size: 0.24rem;
+	color: black;
+	border-bottom: 1px dashed black;
+}
+.op{
+	width:50%;
+	height: 0.3rem;
+	font-size: 0.18rem;
+	color:black;
+	margin-bottom: 0.2rem;
+}
+.op span{
+	color: #4a4d55;
+}
+.banner{
+	width: 6.2rem;
+	height: 2.8rem;
+	margin: 0 auto;
+	background:  url(../img/2.png) center center no-repeat;
+	background-size: 100%;
+	box-shadow: -1px -1px  1px  2px rgba(0, 0, 0, 0.4);
+	position: relative;
+}
+.xian1{
+	width: 6.1rem;
+	height: 4px;
+	margin: auto;
+	border-bottom: 2px solid black;
+}
+.xian2{
+	width: 6rem;
+	height: 4px;
+	margin: auto;
+	border-bottom: 2px solid #C7C9C9;
+	margin-bottom: 0.2rem;
+}
+.lun{
+	width: 20%;
+	height: 0.3rem;
+	margin: 0 auto;
+}
+.lun ul li{
+	width: 0.15rem;
+	height: 0.15rem;
+	border-radius: 50%;
+	background: #20aa80;
+	float: left;
+	margin-right: 0.05rem;
+}
+.lun ul .l1{
+	width: 0.25rem;
+	height: 0.15rem;
+	border-radius: 10px;
+}
+.ye{
+	width: 6.48rem;
+	height: 0.8rem;
+	position: absolute;
+	bottom: 0.35rem;
+	left: -0.15rem;
+	background: url(../img/3.png) center center no-repeat;
+	background-size: 100%;	
+}
+.jr{
+	width: 1.5rem;
+	height: 0.6rem;
+	background: url(../img/4.png) center center no-repeat;
+	background-size: 100%;
+	position: absolute;
+	top: 0.05rem;
+	right: 0.2rem;
+}
+.pt ul li{
+	width: 2rem;
+	height: 100%;
+	margin-right: 0.15rem;
+	border-bottom: 2px solid #4A4D55;
+	box-shadow: -1px -1px  1px  3px rgba(0, 0, 0, 0.2);
+	border-radius: 10px 10px 2px 2px;
+	float: left;
+	position: relative;
+}
+.pt{
+	width: 90%;
+	height: auto;
+	margin: 0 auto;
+	overflow: hidden;	
+}
+.pt ul{
+	width: 100%;
+	height: 3.2rem;
+	margin-top: 0.37rem;
+}
+.pt ul li .tu{
+	width: 1.75rem;
+	height: 2.12rem;
+	background: url(../img/1.jpg) center center no-repeat;
+	background-size: 100%;
+	position: absolute;
+	top: -0.1rem;
+	left: 0.12rem;
+}
+.pt ul li .tu1{
+	width: 1.75rem;
+	height: 2.12rem;
+	background: url(../img/2.jpg) center center no-repeat;
+	background-size: 100%;
+	position: absolute;
+	top: -0.1rem;
+	left: 0.12rem;
+}
+.pt ul li .tu2{
+	width: 1.75rem;
+	height: 2.12rem;
+	background: url(../img/3.jpg) center center no-repeat;
+	background-size: 100%;
+	position: absolute;
+	top: -0.1rem;
+	left: 0.12rem;
+}
+.pt ul li .tu3{
+	width: 1.75rem;
+	height: 2.12rem;
+	background: url(../img/4.jpg) center center no-repeat;
+	background-size: 100%;
+	position: absolute;
+	top: -0.1rem;
+	left: 0.12rem;
+}
+.pt ul li .tu4{
+	width: 1.75rem;
+	height: 2.12rem;
+	background: url(../img/5.jpg) center center no-repeat;
+	background-size: 100%;
+	position: absolute;
+	top: -0.1rem;
+	left: 0.12rem;
+}
+.pt ul li .tu5{
+	width: 1.75rem;
+	height: 2.12rem;
+	background: url(../img/6.jpg) center center no-repeat;
+	background-size: 100%;
+	position: absolute;
+	top: -0.1rem;
+	left: 0.12rem;
+}
+.pt ul li .tu .di{
+	width: 100%;
+	height: 0.33rem;
+	font-size: 0.15rem;
+	color: white;
+	position: absolute;
+	line-height: 0.33rem;
+	bottom: 0px;
+    background: rgba(0,0,0,0.6);
+}
+.pt ul li .tu .dt{
+	width: 0.25rem;
+	height: 100%;
+	margin-left: 0.08rem;
+	float: left;
+}
+img{
+	width: 100%;
+	height: 100%;
+}
+.liulan{
+	width: 0.6rem;
+	height: 0.38rem;
+	background: url(../img/6.png) center center no-repeat;
+	background-size: 100%;
+	position: absolute;
+	top: 0.15rem;
+	font-size: 0.18rem;
+	color: white;
+	text-align: center;
+	line-height: 0.38rem;
+	right: -0.1rem;
+	z-index: 99;
+}
+.qian{
+	width: 0.8rem;
+	height: 0.4rem;
+	font-size: 0.18rem;
+	color: #f81e3d;
+	text-align: center;
+	line-height: 0.4rem;
+	position: absolute;
+	bottom: 0.7rem;
+	left: 0.6rem;	
+}
+.qian1{
+	width: 1.4rem;
+	height: 0.3rem;
+	font-size: 0.18rem;
+	color: #2a2d36;
+	position: absolute;
+	bottom: 0.5rem;
+	left: 0.35rem;
+}
+.ww{
+	width: 1.25rem;
+	height: 0.34rem;
+	background: url(../img/7.png) center center no-repeat;
+	background-size: 100%;
+	position: absolute;
+	bottom: 0.15rem;
+	left: 0.35rem;
+	font-size: 0.18rem;
+	color: white;
+}
+.ww span{
+	position: absolute;
+	top: 0.08rem;
+	right: 0.15rem;
+}
+.jz{
+	width: 100%;
+	height: 0.8rem;
+	font-size: 0.18rem;
+	color: #b5b5b5;
+	text-align: center;
+	line-height: 0.8rem;
+}

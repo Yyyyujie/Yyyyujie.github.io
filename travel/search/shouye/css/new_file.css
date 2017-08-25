@@ -1,0 +1,598 @@
+.box{
+	width: 100%;
+	height: auto;
+	 font-family: "苹方","微软雅黑", "Helvetica";
+}
+                                       /*头部开始*/
+.tou{
+	width: 100%;
+	height: 1.2rem;
+	background: linear-gradient(90deg,#8e83ca,#23be95);
+	overflow: hidden;
+	position: relative;
+}
+.nk1{
+	width: 90%;
+	height: 100%;
+	position:absolute;
+	left: 5%;
+}
+.fh{
+	width: 0.6rem;
+	height: 0.6rem;
+	background: url(../img/fanhui.png) center center no-repeat;
+	background-size: 100%;
+	position: absolute;
+	top: 0.3rem;
+}
+.zh{
+	width: 40%;
+	height: 100%;
+	margin: 0 auto;
+	margin-top: 0.15rem;
+	position: relative;
+}
+.zh h6{
+	font-size: 0.25rem;
+	color: white;
+	text-align: center;
+}
+.zh h5{
+	font-size: 0.2rem;
+	color: white;
+	text-align: center;
+	font-weight: 400;
+}
+.dian{
+	font-size: 0.2rem;
+	color: #c7c9c9;
+	position: absolute;
+	bottom:25%;
+	left:30%;
+}
+.dian1{
+	font-size: 0.2rem;
+	color: #c7c9c9;
+	position: absolute;
+	bottom:25%;
+	right:30%;
+}
+.qiu{
+	width: 0.1rem;
+	height: 0.1rem;
+	border-radius: 50%;
+	background: #4094f0;
+	position: absolute;
+	bottom: 29%;
+	left: 45%;
+}
+.qiu1{
+	width: 0.1rem;
+	height: 0.1rem;
+	border-radius: 50%;
+	background: #3fd624;
+	position: absolute;
+	bottom: 29%;
+	right: 45%;
+}
+.qi{
+	width: 12%;
+	height: 1.2rem;
+	font-size:0.2rem;
+	color: white;
+	line-height:1.2rem;
+	position: absolute;
+	top: 0px;
+	right:0px;
+	overflow: hidden;
+}
+                        /*头部结束*/
+.dd{
+	width: 90%;
+	height: 1rem;
+	margin:0 auto;
+	background: #2f3a43;
+	border-radius: 5px;
+	margin-top: 0.2rem;
+}
+.dd ul li{
+	width: 20%;
+    height: 100%;
+    float: left;
+    position: relative;
+}
+.qiu2{
+	width: 0.05rem;
+	height: 0.05rem;
+	background: #26f7b5;
+	line-height: 1rem;
+	margin-top: 0.48rem;
+	float: left;
+	margin-right: 0.05rem;
+}
+.qiu3{
+	width: 0.05rem;
+	height: 0.05rem;
+	background: #26abf7;
+	margin-top: 0.48rem;
+	float: left;
+	margin-right: 0.05rem;
+}
+.guo{
+	width: auto;
+	height: auto;
+	font-size: 0.22rem;
+	color: #B5B5B5;
+	position: absolute;
+	left: 0.2rem;
+	top: 0.25rem;	
+}
+.he{
+	width: 0.15rem;
+	height: 0.05rem;
+	background: #9ea3a7;
+	position: absolute;
+	left: 0.2rem;
+	top: 0.58rem;
+}
+.guo1{
+	width: auto;
+	height: auto;
+	font-size: 0.12rem;
+	color: #B5B5B5;
+	position: absolute;
+	left: 0.2rem;
+	top: 0.6rem;
+}
+.dd ul li:hover .guo{
+	color: white;
+}
+.dd ul li:hover{
+	background: #333e48;
+}
+.qiu4{
+	width: 0.05rem;
+	height: 0.05rem;
+	background: #38ff88;
+	line-height: 1rem;
+	margin-top: 0.48rem;
+	float: right;
+	margin-right: 0.25rem;
+}
+.qiu5{
+	width: 0.05rem;
+	height: 0.05rem;
+	background: #38ffd7;
+	line-height: 1rem;
+	margin-top: 0.48rem;
+	float: right;
+	margin-right: 0.05rem;
+}
+.qiu6{
+	width: 0.05rem;
+	height: 0.05rem;
+	background: #38c0ff;
+	line-height: 1rem;
+	margin-top: 0.48rem;
+	float: right;
+	margin-right: 0.05rem;
+}
+                       /*搜索开始*/
+.box1{
+	width: 100%;
+	height: 0.5rem;
+	margin: 0 auto;
+	background: #efefef;
+	position: relative;
+}
+.box1 .tt{
+	width: 90%;
+	height: 1rem;
+	font-size: 0.2rem;
+	background: #4a4d55;
+	margin: 0 auto;
+	border-radius:10px;
+	position: relative;
+	left: 5%;
+	top: -40%;
+	outline: none;
+}
+.hua{
+	background: url(../img/huatong.png) center center no-repeat;
+	background-size: 100%;
+	width: 0.9rem;
+	height: 0.9rem;
+    position: absolute;
+    right: 5%;
+    top: 65%;
+}
+                                     /*搜索结束*/
+                                    
+.box2{
+	width: 90%;
+	height: auto;
+	margin: 0 auto;
+	overflow: hidden;
+	margin-top: 0.2rem;
+}
+.xm{
+	width: 100%;
+	height: auto;
+}
+.xm ul{
+	width: auto;
+	height: 0.63rem;
+    margin-top: 0.2rem;
+	margin-bottom: 0.3rem;
+	margin-left: 1.5rem;
+}
+.xm ul:nth-child(2){
+	margin-left: 0.6rem;
+}
+.xm ul li{
+	width: 1.6rem;
+	height: 100%;
+	background: url(../img/11.png) center center no-repeat;
+	background-size: 100%;
+	font-size: 0.18rem;
+	color: white;
+	text-align: center;
+	line-height: 0.63rem;
+	margin-right: 0.2rem;
+	float: left;
+}
+         /*结束*/
+.re{
+	width: 90%;
+	margin:0 auto;
+	height: 1.5rem;
+	background: url(../img/21_03.png) center center no-repeat;
+	background-size: 100%;
+	margin-top: 0.8rem;
+}
+.tq{
+	width: 90%;
+	height: 2.6rem;
+	margin:0 auto;
+	overflow: hidden;
+	position: relative;
+}
+.zu{
+	width: 4.3rem;
+	height: 2.6rem;
+	background: url(../img/8.jpg) center center no-repeat;
+	background-size: cover;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.yy{
+	width: 2.1rem;
+	height: 1.25rem;
+	background: url(../img/9.jpg) center center no-repeat;
+	background-size: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.yy1{
+	width: 2.1rem;
+	height: 1.25rem;
+	background: url(../img/10.jpg) center center no-repeat;
+	background-size: 100%;
+	position: absolute;
+    right: 0;
+    bottom: 0;
+}
+        /*猜你喜欢开始*/
+.zi{
+	width: 90%;
+	height: auto;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.you{
+	width: 1.1rem;
+	height: 0.35rem;
+	font-size: 0.24rem;
+	color: black;
+	border-bottom: 1px dashed black;
+}
+.op{
+	width:50%;
+	height: 0.3rem;
+	font-size: 0.18rem;
+	color:black;
+	margin-bottom: 0.2rem;
+}
+.op span{
+	color: #4a4d55;
+}
+.pt ul li{
+	width: 2.1rem;
+	height: 100%;
+	margin-right: 0.15rem;
+	border-bottom: 2px solid #4A4D55;
+	box-shadow: -1px -1px  1px  3px rgba(0, 0, 0, 0.2);
+	border-radius: 10px 10px 2px 2px;
+	float: left;
+	position: relative;
+}
+.pt{
+	width: 90%;
+	height: auto;
+	margin: 0 auto;
+	overflow: hidden;	
+}
+.pt ul{
+	width: 100%;
+	height: 3.2rem;
+	margin-top: 0.37rem;
+}
+.pt ul li .tu{
+	width: 1.75rem;
+	height: 2.12rem;
+	background: url(../img/1.jpg) center center no-repeat;
+	background-size: 100%;
+	position: absolute;
+	top: -0.1rem;
+	left: 0.2rem;
+}
+.pt ul li .tu1{
+	width: 1.75rem;
+	height: 2.12rem;
+	background: url(../img/2.jpg) center center no-repeat;
+	background-size: 100%;
+	position: absolute;
+	top: -0.1rem;
+	left: 0.2rem;
+}
+.pt ul li .tu2{
+	width: 1.75rem;
+	height: 2.12rem;
+	background: url(../img/3.jpg) center center no-repeat;
+	background-size: 100%;
+	position: absolute;
+	top: -0.1rem;
+	left: 0.2rem;
+}
+.pt ul li .tu .di{
+	width: 100%;
+	height: 0.33rem;
+	font-size: 0.15rem;
+	color: white;
+	position: absolute;
+	line-height: 0.33rem;
+	bottom: 0px;
+    background: rgba(0,0,0,0.6);
+}
+.pt ul li .tu .dt{
+	width: 0.25rem;
+	height: 100%;
+	margin-left: 0.08rem;
+	float: left;
+}
+img{
+	width: 100%;
+	height: 100%;
+}
+.liulan{
+	width: 0.6rem;
+	height: 0.38rem;
+	background: url(../img/6.png) center center no-repeat;
+	background-size: 100%;
+	position: absolute;
+	top: 0.15rem;
+	font-size: 0.18rem;
+	color: white;
+	text-align: center;
+	line-height: 0.38rem;
+	right: -0.1rem;
+	z-index: 99;
+}
+.qian{
+	width: 0.8rem;
+	height: 0.4rem;
+	font-size: 0.18rem;
+	color: #f81e3d;
+	text-align: center;
+	line-height: 0.4rem;
+	position: absolute;
+	bottom: 0.7rem;
+	left: 0.6rem;	
+}
+.qian1{
+	width: 1.4rem;
+	height: 0.3rem;
+	font-size: 0.18rem;
+	color: #2a2d36;
+	position: absolute;
+	bottom: 0.5rem;
+	left: 0.35rem;
+}
+.ww{
+	width: 1.25rem;
+	height: 0.34rem;
+	background: url(../img/7.png) center center no-repeat;
+	background-size: 100%;
+	position: absolute;
+	bottom: 0.15rem;
+	left: 0.35rem;
+	font-size: 0.18rem;
+	color: white;
+}
+.ww span{
+	position: absolute;
+	right: 0.15rem;
+}
+      /*猜你喜欢结束*/
+      /*热门推荐开始*/
+.box3{
+	width: 90%;
+	height: auto;
+	margin: 0 auto;
+	margin-top: 0.2rem;
+} 
+.shi{
+	width: 100%;
+	height: 3rem;
+	background: url(../img/12.png) center center no-repeat;
+	background-size: 100%;
+	position: relative;
+}
+.shi1{
+	width: 100%;
+	height: 3rem;
+	background: url(../img/21.png) center center no-repeat;
+	background-size: 100%;
+	position: relative;
+}
+.zhe{
+	width: 1rem;
+	height: 1rem;
+	position: absolute;
+	right: 2.8rem;
+	top: 1.1rem;
+	background: url(../img/13.png) center center no-repeat;
+	background-size: 100%;
+}
+.bo{
+	width: 1rem;
+	height: 1rem;
+	position: absolute;
+	top: 1rem;
+	right: 3rem;
+	background: url(../img/14.png) center center no-repeat;
+	background-size: 100%;
+} 
+.fen{
+	width: 1rem;
+	height: 1rem;
+	position: absolute;
+	bottom: -0.5rem;
+	right: 0.5rem;
+	background: url(../img/15.png) center center no-repeat;
+	background-size: 100%;
+} 
+.yb{
+	width: 100%;
+	height: 1.2rem;
+    padding-top: 0.23rem;
+	padding-left: 0.24rem;
+	border: 1px solid #C7C9C9;
+	position: relative;
+} 
+.yb h3{
+	font-size: 0.3rem;
+	color: black;
+} 
+.yb h3 span{
+	font-size: 0.24rem;
+	color: #24c5a5;
+}  
+.yb .bj{
+	width: 100%;
+	height: 0.3rem;
+	font-size: 0.24rem;
+	color: black;
+}
+.xia{
+	width: 100%;
+	height: 0.75rem;
+	overflow: hidden;
+	border-radius: 0px 0px 10px 10px;
+}
+.xia ul li{
+	width: 2.25rem;
+	height: 0.74rem;
+	border: 1px solid #C7C9C9;
+	float: left;
+}
+.xia ul li .nei{
+	width: 1.88rem;
+	height: 0.75rem;
+	margin:0 auto;
+	line-height: 0.64rem;
+	position: relative;
+}
+.zuo{
+	width: 0.4rem;
+	height: 100%;
+	background: url(../img/16.png) center center no-repeat;
+	background-size: 100%;
+	float: left;
+}
+.zuo1{
+	width: 0.4rem;
+	height: 100%;
+	background: url(../img/20.png) center center no-repeat;
+	background-size: 100%;
+	float: left;
+}
+.xia ul li .nei .zz{
+	width: 1rem;
+	height: 100%;
+	position:absolute;
+	left: 0.5rem;
+}
+.xia ul li .nei .zz h4{
+	width: 1rem;
+	height: 0.3rem;
+	font-size: 0.24rem;
+	color: #24C5A5;
+	position: absolute;
+	top:0;
+	left:0;
+}
+.hai{
+	width: 1rem;
+	height: 0.3rem;
+	font-size: 0.18rem;
+	color: #24C5A5;
+	position: absolute;
+	left: 0;
+	top: 0.3rem;
+}
+.heng{
+	width: 0.47rem;
+	height: 0.23rem;
+	background: url(../img/17.png) center center no-repeat;
+	background-size: 100%;
+	position: absolute;
+	right: -0.13rem;
+	top: 0.05rem;
+}
+.heng1{
+	width: 0.47rem;
+	height: 0.23rem;
+	background: url(../img/17.png) center center no-repeat;
+	background-size: 100%;
+	position: absolute;
+	right: -0.13rem;
+	bottom: 0.05rem;
+}
+.ceng{
+	width: 1.65rem;
+	height: 0.47rem;
+    margin-top: 0.1rem;
+	float: left;
+	background: url(../img/18.png) center center no-repeat;
+	background-size: 100%;
+}
+.zan{
+	width: 0.47rem;
+	height: 0.47rem;
+	margin-top: 0.1rem;
+	float: left;
+	background: url(../img/19.png) center center no-repeat;
+	background-size: 100%;
+}
+  /*猜你喜欢结束*/   
+.jz{
+	width: 100%;
+	height: 0.8rem;
+	font-size: 0.18rem;
+	color: #b5b5b5;
+	text-align: center;
+	line-height: 0.8rem;
+}

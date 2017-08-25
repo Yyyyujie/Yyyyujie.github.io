@@ -196,7 +196,7 @@ $(function() {
     //    圆圈进度条6
 
 
-    var canvas6 = document.getElementsByClassName("canvas6")[0];
+   /* var canvas6 = document.getElementsByClassName("canvas6")[0];
     var cobj6 = canvas6.getContext("2d");
     var speed6 = 5;
     var a6 = 0;
@@ -226,7 +226,7 @@ $(function() {
         }
     }
 
-    move6()
+    move6()*/
 
 
     //    圆圈进度条7
@@ -267,7 +267,7 @@ $(function() {
     //    圆圈进度条8
 
 
-    var canvas8 = document.getElementsByClassName("canvas8")[0];
+    /*var canvas8 = document.getElementsByClassName("canvas8")[0];
     var cobj8 = canvas8.getContext("2d");
     var speed8 = 5;
     var a8= 0;
@@ -297,12 +297,12 @@ $(function() {
         }
     }
 
-    move8()
+    move8()*/
 
     //    圆圈进度条7
 
 
-    var canvas9 = document.getElementsByClassName("canvas9")[0];
+    /*var canvas9 = document.getElementsByClassName("canvas9")[0];
     var cobj9 = canvas9.getContext("2d");
     var speed9 = 5;
     var a9 = 0;
@@ -332,7 +332,7 @@ $(function() {
         }
     }
 
-    move9()
+    move9()*/
 
 
     //skill动画

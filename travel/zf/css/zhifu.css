@@ -1,0 +1,486 @@
+.quanbu{
+	width: 100%;
+	overflow: hidden;
+}
+.tatle{
+	width: 100%;
+	height: 1rem;
+	background: linear-gradient(90deg,#8e83ca,#23be95);
+	position: relative;
+}
+.zuo{
+	width: 0.54rem;
+	height: 0.6rem;
+	position: absolute;
+	top: 0.22rem;
+	left: 0.2rem;
+	background-image: url('../img/images/fanhui.png');
+	background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.zhong{
+	width: 1.9rem;
+	height: 100%;
+	margin: 0 auto;
+	/* background: red; */
+}
+.zhong div{
+	padding-top: 0.02rem;
+    font-size: 0.28rem;
+    color: white;
+    text-align: center;
+}
+.zhong .dingdan{
+	font-size: 0.2rem;
+    color: white;
+}
+.zhong .hang{
+	height: 0.1rem;
+	width: 1.4rem;
+	float: left;
+	margin-left: 0.18rem;
+	/* background-color: red; */
+	position: relative;
+}
+.zhong .hang div{
+	text-align: center;
+	float: left;
+	
+}
+.hang .dian1{
+    position: absolute;
+    left: 0;
+    bottom:-0.03rem;
+    font-size: 0.05rem;
+    color: white;
+}
+.hang .dian2{
+    position: absolute;
+    right: 0;
+    bottom:-0.03rem;
+    font-size: 0.05rem;
+    color: white;
+}
+.zhong .hang .lan{
+	width: 0.1rem;
+	height: 0.1rem;
+	float: left;
+	border-radius: 50%;
+	background-color: blue;
+	 position: absolute;
+    left: 0.55rem;
+    top: 0.04rem;
+}
+.zhong .hang .lv{
+	width: 0.1rem;
+	height: 0.1rem;
+	float: left;
+	border-radius: 50%;
+	background-color: green;
+	 position: absolute;
+    right: 0.55rem;
+    top: 0.04rem;
+}
+.you{
+	font-size: 0.24rem;
+	color: white;
+	position: absolute;
+	top: 0.32rem;
+	right: 0.3rem;
+}
+.jingdian{
+	width: 100%;
+	overflow:hidden;
+}
+.jingdian ul{
+	width: 6.05rem;
+	height: 3rem;
+	margin: 0 auto;
+	/* background-color: red; */
+	position: relative;
+}
+.jingdian ul .shang{
+	width: 6.05rem;
+	height: 2.1rem;
+	padding-top: 0.2rem;
+	/* background-color: black; */
+}
+.shang .tu1{
+	width: 1.52rem;
+	height: 2.1rem;
+	background-image: url('../img/images/07.gif');
+	background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    float: left;
+}
+.shang .tu2{
+	width: 2.86rem;
+	height: 1rem;
+	position: absolute;
+	top: 0.2rem;
+	left:1.6rem;
+	background-image: url('../img/images/09.gif');
+	background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    float: left;
+}
+.shang .tu4{
+	width: 1.52rem;
+	height: 2.1rem;
+	background-image: url('../img/images/11.gif');
+	background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    float: right;
+}
+.shang .tu3{
+	width: 2.86rem;
+	height: 1rem;
+	position: absolute;
+	top: 1.29rem;
+	left:1.6rem;
+	background-image: url('../img/images/14.gif');
+	background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    float: left;
+}
+.jingdian .xia{
+	width: 100%;
+	height: 0.9rem;
+	/* background: red; */
+	position: relative;
+}
+.jingdian .xia .vr{
+    width: 1.14rem;
+    height: 0.41rem;
+    position: absolute;
+    /* left: 0; */
+    top: 0.23rem;
+    background: linear-gradient(90deg,#23be95,#8e83ca);
+    border-radius: 0.8rem;
+}
+.jingdian .xia .renshu{
+	width: 1.14rem;
+    height: 0.41rem;
+    position: absolute;
+    right: 0;
+    top: 0.23rem;
+    background: linear-gradient(90deg,#23be95,#8e83ca);
+    border-radius: 0.8rem;
+}
+.jingdian .xia .bai{
+	width: 1.05rem;
+    height: 0.32rem;
+    background: white;
+    border-radius: 0.8rem;
+    margin: 0 auto;
+    margin-top: 0.04rem;
+}
+.jingdian .xia .bai .neibu{
+	width: 1rem;
+    height: 0.28rem;
+    background: #24c894;
+    border-radius: 0.8rem;
+    position: absolute;
+    left: 0.07rem;
+    top: 0.06rem;
+    /* margin-top: 0.02rem; */
+}
+.jingdian .xia .bai .neibu p{
+	text-align: center;
+	line-height: 0.28rem;
+	font-size: 0.09rem;
+	color: white;
+}
+.jingdian .xia .renshu .bai .neibu p{
+	text-align: center;
+	line-height: 0.28rem;
+	font-size: 0.05rem;
+	color: white;
+}
+.jingdian .xia .vr .zi{
+	width: 0.03rem;
+	height: 0.03rem;
+	background: white;
+	border-radius: 50%;
+	border: 0.03rem solid #8e83ca;
+	position: absolute;
+	left: -0.01rem;
+	top: 0.18rem;
+}
+.jingdian .xia .vr .lv{
+	width: 0.03rem;
+	height: 0.03rem;
+	background: white;
+	border-radius: 50%;
+	border: 0.03rem solid #23be95;
+	position: absolute;
+	right: -0.01rem;
+	top: 0.18rem;
+}
+.jingdian .xia .renshu .zi{
+	width: 0.03rem;
+	height: 0.03rem;
+	background: white;
+	border-radius: 50%;
+	border: 0.03rem solid #8e83ca;
+	position: absolute;
+	left: -0.01rem;
+	top: 0.18rem;
+}
+.jingdian .xia .renshu .lv{
+	width: 0.03rem;
+	height: 0.03rem;
+	background: white;
+	border-radius: 50%;
+	border: 0.03rem solid #23be95;
+	position: absolute;
+	right: -0.01rem;
+	top: 0.18rem;
+}
+.luxian{
+	width: 6.64rem;
+	height: 1.5rem;
+	margin: 0 auto;
+	/* background: red; */
+}
+.luxian ul{
+	position: relative;
+	float: left;
+}
+.luxian ul li{
+	float: left;
+}
+.luxian ul .li1{
+	position: absolute;
+	left: 0.25rem;
+	top: 0.3rem;
+	width: 1rem;
+	height: 0.6rem;
+	float: left;
+}
+.luxian ul li p{
+	text-align: center;
+	/* line-height: 0.6rem; */
+	font-size: 0.25rem;
+	color: #4a4d55;
+}
+.luxian ul li .span{
+	font-size: 0.25rem;
+	color: #b3b4b6;
+}
+.luxian ul .li2{
+	width: 1.22rem;
+	height: 0.13rem;
+    position: absolute;
+	left: 1.4rem;
+	top: -0.4rem;
+	float: left;
+	z-index: 9999;
+}
+.luxian ul .li4{
+	width: 1.22rem;
+	height: 0.13rem;
+    position: absolute;
+	left: 3.5rem;
+	top:-0.4rem;
+	float: left;
+}
+img{
+	/* position: absolute;
+	left: 1.5rem;
+	top: 0.5rem; */
+	width: 100%;
+	height: 100%;
+}
+
+.luxian ul .li3{
+	width: 1.05rem;
+	height: 1.12rem;
+    position: absolute;
+	left: 2.55rem;
+	top: 0rem;
+	float: left;
+	z-index: 1;
+}
+/* .luxian ul .li3 img{
+	position: absolute;
+	left: 2.5rem;
+	top: 0.5rem;
+	width: 100%;
+	height: 100%;
+} */
+.luxian ul .li5{
+	position: absolute;
+	right: -6.5rem;
+	top: 0.3rem;
+	width: 2rem;
+	height: 0.6rem;
+	/* float: right; */
+}
+.biao{
+	width: 100%;
+	overflow: hidden;
+	position: relative;
+}
+.jingdian .biao .yi{
+	position: absolute;
+	left: 0.25rem;
+	top: 0;
+}
+.jingdian .biao .er{
+	position: absolute;
+	left: 3rem;
+	top: 0;
+}
+.jingdian .biao .san{
+	position: absolute;
+	right: 0.25rem;
+	top: 0;
+}
+/* .jingdian .biao .vr div{
+	font-size: 0.01rem;
+} */
+.dibu{
+	width: 100%;
+	height: 1rem;
+	/* overflow: hidden; */
+	position: relative;
+	float: left;
+}
+.dibu .tu{
+	width: 0.73rem;
+	height: 0.73rem;
+	background-image: url('../img/images/55.gif');
+	background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    float: left;
+    position: absolute;
+    left: 2.2rem;
+    top: 0.1rem;
+}
+.dibu .zhifu{
+	width: 2rem;
+	height: 0.6rem;
+	position: absolute;
+    right: 2.6rem;
+    top: 0.1rem;
+    /* background: red; */
+    float: left;
+    
+}
+.dibu .zhifu p{
+	font-size: 0.25rem;
+	color: #4a4d55;
+}
+.dibu .zhifu .span{
+	font-size: 0.25rem;
+	color: #b3b4b6;
+}
+.qianshu{
+	width: 4.09rem;
+	height: 0.73rem;
+	background-image: url('../img/images/shumu_03.gif');
+	background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    margin-top: 1rem;
+}
+.daijinquan{
+	width: 100%;
+	height: 1rem;
+}
+.daijinquan div{
+	width: 2.85rem;
+	height: 100%;
+	margin: 0 auto;
+	position: relative;
+}
+.daijinquan div ul li{
+	float: left;
+	margin-right: 0.04rem;
+}
+.daijinquan div ul li .zise{
+	width: 0.08rem;
+	height: 0.08rem;
+	border-radius: 50%;
+	background: #d860ff;
+	margin-top: 0.5rem;
+}
+.daijinquan div ul li .lanse{
+	width: 0.08rem;
+	height: 0.08rem;
+	border-radius: 50%;
+	background: #24c894;
+    margin-top: 0.5rem;
+
+}
+.btnTijiao {
+	width: 6.5rem;
+	height: 0.9rem;
+	margin: 0 auto;
+	background: url('../img/3_03.png') center center no-repeat;
+	background-size: 100%;
+	margin-bottom: 0.86rem;
+	box-shadow: 0 0.05rem 0.3rem 0.1rem rgba(0, 0, 0, 0.2);
+}
+
+.btnTijiao .title {
+	font-size: 0.34rem;
+	line-height: 0.9rem;
+	font-weight: bold;
+	color: white;
+	float: left;
+	margin-left: 1.64rem;
+}
+
+.btnTijiao .right {
+	width: 2.5rem;
+	height: 100%;
+	float: left;
+}
+
+.btnTijiao .title1 {
+	font-size: 0.2rem;
+	line-height: 0.2rem;
+	font-weight: bold;
+	color: white;
+	margin-left: 0.3rem;
+	margin-top: 0.2rem;
+}
+
+.btnTijiao .title1:nth-child(2) {
+	margin-top: 0.05rem;
+}
+.shang .zhezhao{
+	width: 100%;
+    height: 2.1rem;
+    position: absolute;
+    left: 0;
+    top: 0.2rem;
+    /* padding-top: 0.2rem; */
+    background: black;
+    opacity: 0.6; 
+    z-index: 888;
+}
+li div .span{
+	position: relative;
+	top: -0.9rem;
+	left: 2rem;
+}
+li div .span1{
+	position: relative;
+	top: -0.9rem;
+	left: 1.1rem;
+}
+li div .span2{
+	position: relative;
+	top: -0.9rem;
+	left: 1.1rem;
+}
